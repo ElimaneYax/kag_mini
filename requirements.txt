@@ -1,0 +1,11 @@
+PyPDF2>=3.0.0
+py2neo>=2021.2.3
+spacy>=3.5.0
+networkx>=2.8.0
+matplotlib>=3.5.0
+sentence-transformers>=2.2.2
+torch>=1.13.0
+openai>=1.0.0
+
+# Télécharger le modèle spaCy
+# python -m spacy download en_core_web_sm 
