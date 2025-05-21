@@ -86,7 +86,37 @@ class KAGSystem:
         
         print(f"Graphe construit avec {self.knowledge_graph.get_stats()['node_count']} nœuds "
               f"et {self.knowledge_graph.get_stats()['edge_count']} relations.")
+        #############################
+            # Affichage des triplets extraits
+        print("\n📎 Triplets extraits :")
+        for triplet in triplets:
+          print(f"  - {triplet[0]} ---[{triplet[1]}]---> {triplet[2]}")
+
+        import json
+        from datetime import datetime
+
+        # Nom de fichier basé sur le nom du document
+        basename = os.path.basename(file_path)
+        name_without_ext = os.path.splitext(basename)[0]
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        json_filename = f"{name_without_ext}_triplets_{timestamp}.json"
         
+        # Structure à sauvegarder
+        triplet_data = {
+            "document": basename,
+            "triplets": [
+                {"subject": s, "relation": r, "object": o}
+                for s, r, o in triplets
+            ]
+        }
+        
+        # Écriture dans un fichier JSON
+        with open(json_filename, "w", encoding="utf-8") as f:
+            json.dump(triplet_data, f, ensure_ascii=False, indent=2)
+        
+        print(f"\n💾 Triplets sauvegardés dans le fichier : {json_filename}")
+
+
         # Exporter vers Neo4j si disponible
         if self.use_neo4j and self.neo4j_connected:
             print(f"Exportation du graphe vers Neo4j...")

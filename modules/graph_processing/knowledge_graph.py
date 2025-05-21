@@ -279,6 +279,8 @@ class KnowledgeGraph:
             if 'relation' in attrs:
                 self.stats['relation_types'].add(attrs['relation'])
     
+
+    
     def compare_to_graph(self, other_graph: nx.DiGraph) -> Dict[str, float]:
         """
         Compare ce graphe avec un autre graphe.

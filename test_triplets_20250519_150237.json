@@ -1,0 +1,460 @@
+{
+  "document": "test.pdf",
+  "triplets": [
+    {
+      "subject": "This research",
+      "relation": "introduce",
+      "object": "Job Search"
+    },
+    {
+      "subject": "The platform",
+      "relation": "feature",
+      "object": "a sophisticated Resume Analyzer"
+    },
+    {
+      "subject": "that",
+      "relation": "deliver",
+      "object": "a Recommendation System"
+    },
+    {
+      "subject": "the system",
+      "relation": "utilize",
+      "object": "the art"
+    },
+    {
+      "subject": "This integration",
+      "relation": "reﬁne",
+      "object": "technologies"
+    },
+    {
+      "subject": "Initial experimental results",
+      "relation": "underscore",
+      "object": "the enhanced effectiveness"
+    },
+    {
+      "subject": "This paper",
+      "relation": "demonstrate",
+      "object": "the transformative potential"
+    },
+    {
+      "subject": "Index T",
+      "relation": "erm",
+      "object": "BES"
+    },
+    {
+      "subject": "research",
+      "relation": "introduce",
+      "object": "an innovative recommendation platform"
+    },
+    {
+      "subject": "This system",
+      "relation": "incorporate",
+      "object": "a sophisticated Resume Analyzer"
+    },
+    {
+      "subject": "The integration",
+      "relation": "ensure",
+      "object": "these technologies"
+    },
+    {
+      "subject": "This comprehensive approach",
+      "relation": "underscore",
+      "object": "job recommendation"
+    },
+    {
+      "subject": "The section",
+      "relation": "involve",
+      "object": "the project"
+    },
+    {
+      "subject": "This approach",
+      "relation": "address",
+      "object": "the limitations"
+    },
+    {
+      "subject": "The integration",
+      "relation": "lead",
+      "object": "Artiﬁcial Intelligence"
+    },
+    {
+      "subject": "Traditional methods",
+      "relation": "be",
+      "object": "job hunting"
+    },
+    {
+      "subject": "We",
+      "relation": "offer",
+      "object": "an Resume Analyzer[6"
+    },
+    {
+      "subject": "Existing solutions",
+      "relation": "examine",
+      "object": "Resume Analyzer"
+    },
+    {
+      "subject": "This framework",
+      "relation": "employ",
+      "object": "based ﬁltering"
+    },
+    {
+      "subject": "It",
+      "relation": "achieve",
+      "object": "a notable parsing accuracy"
+    },
+    {
+      "subject": "the system",
+      "relation": "be",
+      "object": "challenges"
+    },
+    {
+      "subject": "2024 12024 IEEE International Conference",
+      "relation": "limit",
+      "object": "Blockchain"
+    },
+    {
+      "subject": "MCQ",
+      "relation": "suffer",
+      "object": "supplementary methods"
+    },
+    {
+      "subject": "These drawbacks",
+      "relation": "need",
+      "object": "additional testing"
+    },
+    {
+      "subject": "A paper",
+      "relation": "outline",
+      "object": "Suitability Measurement"
+    },
+    {
+      "subject": "The system",
+      "relation": "utilize",
+      "object": "machine learningclassiﬁers"
+    },
+    {
+      "subject": "Experimental results",
+      "relation": "showcase",
+      "object": "the XGBoost"
+    },
+    {
+      "subject": "The research paper",
+      "relation": "assess",
+      "object": "various analysis methods"
+    },
+    {
+      "subject": "It",
+      "relation": "alsopoint",
+      "object": "the necessity"
+    },
+    {
+      "subject": "The study",
+      "relation": "introduce",
+      "object": "a newsystem"
+    },
+    {
+      "subject": "The research paper",
+      "relation": "present",
+      "object": "Based Documents"
+    },
+    {
+      "subject": "It",
+      "relation": "utilize",
+      "object": "SemanticWeb technologies"
+    },
+    {
+      "subject": "B. Existing Architectures",
+      "relation": "introduce",
+      "object": "Job Recommendation"
+    },
+    {
+      "subject": "It",
+      "relation": "process",
+      "object": "job requirements"
+    },
+    {
+      "subject": "The system",
+      "relation": "combine",
+      "object": "regression"
+    },
+    {
+      "subject": "The research paper",
+      "relation": "animprove",
+      "object": "Job Recommendation System"
+    },
+    {
+      "subject": "The study",
+      "relation": "compare",
+      "object": "based ﬁltering methods"
+    },
+    {
+      "subject": "enhancedalgorithm",
+      "relation": "demonstrate",
+      "object": "higher precision"
+    },
+    {
+      "subject": "Another paper",
+      "relation": "present",
+      "object": "Job Recommendation System"
+    },
+    {
+      "subject": "It",
+      "relation": "utilize",
+      "object": "a hybridapproach"
+    },
+    {
+      "subject": "Test results",
+      "relation": "show",
+      "object": "jobs"
+    },
+    {
+      "subject": "resumes",
+      "relation": "process",
+      "object": "PDFMiner fortext extraction"
+    },
+    {
+      "subject": "A tuned largelanguage model",
+      "relation": "perform",
+      "object": "Named Entity Recognition"
+    },
+    {
+      "subject": "a custom scraper",
+      "relation": "collect",
+      "object": "the recommendation engine"
+    },
+    {
+      "subject": "The coreof",
+      "relation": "utilize",
+      "object": "a Deep RecurrentNeural Network"
+    },
+    {
+      "subject": "a ﬁltering layer",
+      "relation": "reﬁne",
+      "object": "the recommendations"
+    },
+    {
+      "subject": "This methodology",
+      "relation": "ensure",
+      "object": "a robustframework"
+    },
+    {
+      "subject": "Resume Analyzer NER",
+      "relation": "use",
+      "object": "NLP"
+    },
+    {
+      "subject": "Abstract Text Extraction",
+      "relation": "begin",
+      "object": "PDFMiner The process"
+    },
+    {
+      "subject": "Utilizing PDFMiner",
+      "relation": "retrieve",
+      "object": "direct textextraction"
+    },
+    {
+      "subject": "PDFMiner",
+      "relation": "enable",
+      "object": "ofmulti - layered PDF ﬁles"
+    },
+    {
+      "subject": "text data",
+      "relation": "undergo",
+      "object": "a series"
+    },
+    {
+      "subject": "This phase",
+      "relation": "employ",
+      "object": "NLP techniques[21"
+    },
+    {
+      "subject": "This vectorization",
+      "relation": "leverage",
+      "object": "textual information"
+    },
+    {
+      "subject": "These models",
+      "relation": "be",
+      "object": "further training"
+    },
+    {
+      "subject": "Thissystem",
+      "relation": "access",
+      "object": "an extensive database"
+    },
+    {
+      "subject": "RAG",
+      "relation": "enhance",
+      "object": "relevant externaldata"
+    },
+    {
+      "subject": "the system",
+      "relation": "evaluate",
+      "object": "Cosine entity recognition"
+    },
+    {
+      "subject": "This",
+      "relation": "involve",
+      "object": "thecosine"
+    },
+    {
+      "subject": "metric",
+      "relation": "quantiﬁes",
+      "object": "proﬁle"
+    },
+    {
+      "subject": "ﬂow",
+      "relation": "illustrate",
+      "object": "this process"
+    },
+    {
+      "subject": "Feature Extraction",
+      "relation": "be",
+      "object": "Feature extraction"
+    },
+    {
+      "subject": "We",
+      "relation": "use",
+      "object": "the IDF technique"
+    },
+    {
+      "subject": "embedding models",
+      "relation": "be",
+      "object": "convert"
+    },
+    {
+      "subject": "Optimization",
+      "relation": "be",
+      "object": "the core"
+    },
+    {
+      "subject": "This setup",
+      "relation": "be",
+      "object": "the sequential data"
+    },
+    {
+      "subject": "performance",
+      "relation": "measure",
+      "object": "crucial metrics"
+    },
+    {
+      "subject": "These indicators",
+      "relation": "be",
+      "object": "candidates"
+    },
+    {
+      "subject": "it",
+      "relation": "offer",
+      "object": "userpreferences"
+    },
+    {
+      "subject": "the study",
+      "relation": "analyze",
+      "object": "an extensive evaluation"
+    },
+    {
+      "subject": "Each model",
+      "relation": "scrutinize",
+      "object": "precision"
+    },
+    {
+      "subject": "The KNN model",
+      "relation": "demonstrate",
+      "object": "precision"
+    },
+    {
+      "subject": "The DNNmodel",
+      "relation": "exhibit",
+      "object": "further enhancement"
+    },
+    {
+      "subject": "TheDAE model",
+      "relation": "display",
+      "object": "comparable precision"
+    },
+    {
+      "subject": "A signiﬁcant performance jump",
+      "relation": "observe",
+      "object": "the SR model"
+    },
+    {
+      "subject": "Thestandout performer",
+      "relation": "be",
+      "object": "the CF model"
+    },
+    {
+      "subject": "This comprehensive comparison",
+      "relation": "showcase",
+      "object": "the gradual enhancements"
+    },
+    {
+      "subject": "it",
+      "relation": "be",
+      "object": "abovetable"
+    },
+    {
+      "subject": "research",
+      "relation": "demonstrate",
+      "object": "the effective- ness"
+    },
+    {
+      "subject": "The experimental results",
+      "relation": "indicate",
+      "object": "traditional models"
+    },
+    {
+      "subject": "METRICS ACROSS",
+      "relation": "model",
+      "object": "PERFORMANCE"
+    },
+    {
+      "subject": "the CF model",
+      "relation": "achieve",
+      "object": "impressive scores"
+    },
+    {
+      "subject": "F UTURE",
+      "relation": "improve",
+      "object": "recommendation systems"
+    },
+    {
+      "subject": "feedback loopsthat",
+      "relation": "incorporate",
+      "object": "user interactions"
+    },
+    {
+      "subject": "scraping capabilities",
+      "relation": "improve",
+      "object": "adaptive scrapingalgorithms"
+    },
+    {
+      "subject": "the usage",
+      "relation": "enhance",
+      "object": "advanced NLP techniques"
+    },
+    {
+      "subject": "the investigation",
+      "relation": "resolvethe",
+      "object": "hybridapproaches"
+    },
+    {
+      "subject": "P",
+      "relation": "ARSER",
+      "object": "NLP"
+    },
+    {
+      "subject": "A. Patil",
+      "relation": "base",
+      "object": "Artiﬁcial Intelligence"
+    },
+    {
+      "subject": "I. SurvyanaWahyudi",
+      "relation": "base",
+      "object": "cosine similarity"
+    },
+    {
+      "subject": "6 Authorized licensed use",
+      "relation": "limit",
+      "object": "UNIVERSITE DE LILLE"
+    }
+  ]
+}
