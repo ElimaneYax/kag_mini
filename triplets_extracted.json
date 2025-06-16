@@ -1,0 +1,72 @@
+[
+  {
+    "subject": "Apprentissage multi-agents",
+    "relation": "utilise",
+    "object": "jeux stochastiques",
+    "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents.",
+    "confidence": 0.98
+  },
+  {
+    "subject": "Jeux matriciels",
+    "relation": "définit",
+    "object": "tuple (n, A1..n, R1..n)",
+    "sentence": "On peut les définir comme un tuple (n, A1..n, R1..n) où n est le nombre de joueurs, Ai est l'ensemble des actions que le joueur i peut poser et Ri la matrice n-dimensions A1*...*An qui donne les bénéfices possibles pour chacune des combinaisons possibles des actions des joueurs.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Équilibre de Nash",
+    "relation": "représente",
+    "object": "collection de stratégies optimales",
+    "sentence": "Un équilibre de Nash montre donc une situation stable, où un mouvement léger ne peut bénéficier à personne - il s'agit donc d'un point stable à atteindre pour un algorithme d'apprentissage puisqu'il possède la qualité d'être une meilleure réponse et est souvent stable.",
+    "confidence": 0.97
+  },
+  {
+    "subject": "Problème de décision de Markov",
+    "relation": "se_formalise_par",
+    "object": "tuple (S, A, T, R)",
+    "sentence": "On peut formaliser un MDP par un tuple (S, A, T, R) où S est l'ensemble des états, A l'ensemble des actions, T la matrice S*A*S des probabilités de transition et R la matrice S*A des bénéfices.",
+    "confidence": 0.96
+  },
+  {
+    "subject": "Jeux stochastiques",
+    "relation": "unifie",
+    "object": "modèles de décisions de Markov",
+    "sentence": "Les jeux stochastiques sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+    "confidence": 0.98
+  },
+  {
+    "subject": "But principal de l'apprentissage multi-agent",
+    "relation": "définit",
+    "object": "stratégie minimale de garantie de bénéfice",
+    "sentence": "Le but principal de l'apprentissage dans un système multi-agent est localement de trouver pour un agent (celui qui apprend) une stratégie qui peut offrir un minimum de garantie de bénéfice peu importe son adversaire.",
+    "confidence": 0.94
+  },
+  {
+    "subject": "Q-learning",
+    "relation": "se_base_sur",
+    "object": "modèles de décisions de Markov",
+    "sentence": "Q-Learning est un algorithme directement emprunté à l'apprentissage par renforcement. Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques, mais a été considéré par plusieurs comme une base solide pour des développements futurs.",
+    "confidence": 0.93
+  },
+  {
+    "subject": "Agents compétitifs",
+    "relation": "reposent_sur",
+    "object": "théorie des jeux",
+    "sentence": "C'est une catégorie déjà connue par les méthodes de la théorie des jeux - et c'est de cette catégorie que se basent la plupart des algorithmes d'apprentissage multi-agents.",
+    "confidence": 0.95
+  },
+  {
+    "subject": "Jeux à somme nulle",
+    "relation": "sont_plus_faciles_à_analyser_que",
+    "object": "jeux à somme générale",
+    "sentence": "Les jeux dont la somme est à zéro (zero-sum game) sont en général plus faciles à analyser que les autres (general-sum game).",
+    "confidence": 0.96
+  },
+  {
+    "subject": "Rationalité",
+    "relation": "implique",
+    "object": "convergence vers meilleure réponse",
+    "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse aux politiques des autres joueurs.",
+    "confidence": 0.94
+  }
+]

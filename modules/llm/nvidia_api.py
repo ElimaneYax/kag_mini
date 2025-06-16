@@ -30,27 +30,18 @@ class NvidiaLLMClient:
             api_key=self.api_key
         )
         
-        # Modèle par défaut
-        self.default_model = "meta/llama3-8b-instruct"
+        # Nouveau modèle par défaut
+        self.default_model = "qwen/qwen3-235b-a22b"
     
     def query(self, 
               prompt: str, 
               model: Optional[str] = None, 
-              temperature: float = 0.7, 
-              max_tokens: int = 500,
-              top_p: float = 0.95) -> str:
+              temperature: float = 0.2, 
+              max_tokens: int = 2000,
+              top_p: float = 0.7) -> str:
         """
-        Envoie une requête au modèle LLM.
-        
-        Args:
-            prompt (str): Le prompt à envoyer au modèle.
-            model (str, optional): Le modèle à utiliser. Si non spécifié, utilise le modèle par défaut.
-            temperature (float): Contrôle la créativité/randomisation des réponses.
-            max_tokens (int): Nombre maximum de tokens dans la réponse.
-            top_p (float): Échantillonnage nucléaire, valeur entre 0 et 1.
-            
-        Returns:
-            str: La réponse du modèle.
+        Envoie une requête au modèle LLM Qwen-3 235B (NVIDIA API).
+        Retourne uniquement la réponse finale (pas de reasoning/thinking).
         """
         response = self.client.chat.completions.create(
             model=model or self.default_model,
@@ -59,14 +50,19 @@ class NvidiaLLMClient:
             top_p=top_p,
             max_tokens=max_tokens
         )
-        
-        return response.choices[0].message.content
+        # On retourne uniquement la réponse finale
+        # Ajout d'une vérification si content est None
+        if response.choices and response.choices[0].message.content is not None:
+            return response.choices[0].message.content
+        else:
+            print("Avertissement: La réponse du LLM est vide ou None.")
+            return None # Retourne explicitement None si la réponse est vide
     
     def generate_responses(self, 
                           prompts: List[str], 
                           model: Optional[str] = None,
-                          temperature: float = 0.7, 
-                          max_tokens: int = 500) -> List[str]:
+                          temperature: float = 0.2, 
+                          max_tokens: int = 8192) -> List[str]:
         """
         Génère des réponses pour plusieurs prompts.
         
@@ -95,8 +91,8 @@ class NvidiaLLMClient:
     def compare_responses(self, 
                          prompt: str, 
                          models: List[str], 
-                         temperature: float = 0.7,
-                         max_tokens: int = 500) -> Dict[str, str]:
+                         temperature: float = 0.2,
+                         max_tokens: int = 8192) -> Dict[str, str]:
         """
         Compare les réponses de différents modèles pour un même prompt.
         
@@ -141,9 +137,9 @@ class NvidiaLLMClient:
             print(f"Erreur lors de la récupération des modèles: {e}")
             # Liste par défaut des modèles connus
             return [
+                {"id": "qwen/qwen3-235b-a22b", "name": "Qwen 3 235B"},
                 {"id": "meta/llama3-8b-instruct", "name": "Llama 3 8B Instruct"},
-                {"id": "meta/llama3-70b-instruct", "name": "Llama 3 70B Instruct"},
-                {"id": "mistralai/mistral-7b-instruct-v0.2", "name": "Mistral 7B Instruct"}
+                {"id": "meta/llama3-70b-instruct", "name": "Llama 3 70B Instruct"}
             ]
     
     def save_responses_to_file(self, responses: Dict[str, str], filename: str) -> None:

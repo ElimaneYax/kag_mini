@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "Pair-Impair",
+    "relation": "est_également_appelé",
+    "object": "matching pennies",
+    "sentence": "ce jeu est également appelé matching pennies dans la littérature",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "Dilemme du prisonnier",
+    "relation": "définit_matrice_de_récompense",
+    "object": "R1 = [[-1, -4], [0, -3]]",
+    "sentence": "R1 = [[-1, -4], [0, -3]]",
+    "confidence": 0.9,
+    "level": 1
+  },
+  {
+    "subject": "Dilemme du prisonnier",
+    "relation": "définit_matrice_de_récompense",
+    "object": "R2 = [[-1, 0], [-4, -3]]",
+    "sentence": "R2 = [[-1, 0], [-4, -3]]",
+    "confidence": 0.9,
+    "level": 1
+  },
+  {
+    "subject": "roche-papier-ciseaux",
+    "relation": "définit_matrice_de_récompense",
+    "object": "R1 = [[0, -1, 1], [1, 0, -1], [-1, 1, 0]]",
+    "sentence": "R1 = [[0, -1, 1], [1, 0, -1], [-1, 1, 0]]",
+    "confidence": 0.9,
+    "level": 1
+  },
+  {
+    "subject": "roche-papier-ciseaux",
+    "relation": "définit_matrice_de_récompense",
+    "object": "R2 = [[0, 1, -1], [-1, 0, 1], [1, -1, 0]]",
+    "sentence": "R2 = [[0, 1, -1], [-1, 0, 1], [1, -1, 0]]",
+    "confidence": 0.9,
+    "level": 1
+  },
+  {
+    "subject": "GAMUT",
+    "relation": "a_été_créé_par",
+    "object": "Nudelman, Wortman, Leyton-Brown et Shohav",
+    "sentence": "Nudelman, Wortman, Leyton-Brown et Shohav ont créé un framework de test des algorithmes d'apprentissage multi-agents appelé GAMUT [6]",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "rationalité",
+    "relation": "définit",
+    "object": "convergence vers une meilleure réponse aux politiques stationnaires des autres joueurs",
+    "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse aux politiques des autres joueurs",
+    "confidence": 0.9,
+    "level": 1
+  },
+  {
+    "subject": "convergence",
+    "relation": "requiert",
+    "object": "convergence vers une politique stationnaire",
+    "sentence": "Elle requiert que notre algorithme d'apprentissage converge vers une politique stationnaire",
+    "confidence": 0.85,
+    "level": 1
+  },
+  {
+    "subject": "sécurité (no-regret)",
+    "relation": "assure",
+    "object": "bénéfice moyen ≥ maximin",
+    "sentence": "Pour ceci, on demande que la règle d'apprentissage au moins le bénéfice du maximin",
+    "confidence": 0.8,
+    "level": 1
+  },
+  {
+    "subject": "Bully",
+    "relation": "est_une_stratégie_statique",
+    "object": "stratégie de maximisation du bénéfice en anticipant le choix optimal de l'adversaire",
+    "sentence": "Bully et minimax sont deux stratégies statiques, donc elles n'apprennent pas",
+    "confidence": 0.9,
+    "level": 1
+  },
+  {
+    "subject": "Minimax",
+    "relation": "est_équivalent_à",
+    "object": "Bully dans les jeux à somme nulle",
+    "sentence": "En pratique, si nous sommes dans un jeu de somme zéro, Bully nous donnera un algorithme de minimax",
+    "confidence": 0.85,
+    "level": 1
+  },
+  {
+    "subject": "BullyMixed",
+    "relation": "est_une_variation_de",
+    "object": "Bully",
+    "sentence": "Une variation de Bully existe, appelée BullyMixed, où on permet (encourage) une stratégie mixte plutôt qu'une stratégie pure",
+    "confidence": 0.9,
+    "level": 1
+  },
+  {
+    "subject": "jeu fictif",
+    "relation": "assume",
+    "object": "stratégie adverse basée sur une distribution fixe",
+    "sentence": "Par le jeu fictif [3], notre agent assume que la stratégie de l'adversaire est de tirer ses actions d'une distribution fixe",
+    "confidence": 0.85,
+    "level": 1
+  },
+  {
+    "subject": "Run the GAMUT",
+    "relation": "propose",
+    "object": "Comprehensive Approach to Evaluating Game-Theoretic Algorithms",
+    "sentence": "Run the GAMUT: A Comprehensive Approach to Evaluating Game-Theoretic Algorithms",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+    "relation": "propose",
+    "object": "new criteria",
+    "sentence": "New criteria and a new algorithm for learning in multi-agent systems",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+    "relation": "propose",
+    "object": "new algorithm",
+    "sentence": "New criteria and a new algorithm for learning in multi-agent systems",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "Multi-Agent Reinforcement Learning: a critical survey",
+    "relation": "survey",
+    "object": "Multi-Agent Reinforcement Learning",
+    "sentence": "Multi-Agent Reinforcement Learning: a critical survey",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "Nash convergence of gradient dynamics in general sum games",
+    "relation": "study",
+    "object": "Nash convergence of gradient dynamics",
+    "sentence": "Nash convergence of gradient dynamics in general sum games",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "Online convex programming and generalized infinitesimal gradient ascent",
+    "relation": "introduce",
+    "object": "Online convex programming",
+    "sentence": "Online convex programming and generalized infinitesimal gradient ascent",
+    "confidence": 0.95,
+    "level": 1
+  },
+  {
+    "subject": "Online convex programming and generalized infinitesimal gradient ascent",
+    "relation": "introduce",
+    "object": "generalized infinitesimal gradient ascent",
+    "sentence": "Online convex programming and generalized infinitesimal gradient ascent",
+    "confidence": 0.95,
+    "level": 1
+  }
+]
