@@ -1,0 +1,387 @@
+[
+  {
+    "valid": true,
+    "relation_type": "introduces",
+    "confidence": 0.7
+  },
+  {
+    "valid": true,
+    "relation_type": "has_component",
+    "confidence": 0.95
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.3
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.2
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.3
+  },
+  {
+    "valid": true,
+    "relation_type": "supports",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "demonstrates",
+    "confidence": 0.85
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.1
+  },
+  {
+    "valid": true,
+    "relation_type": "introduces",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "includes",
+    "confidence": 0.9
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.2
+  },
+  {
+    "valid": true,
+    "relation_type": "emphasizes",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "participates_in",
+    "confidence": 0.75
+  },
+  {
+    "valid": true,
+    "relation_type": "addresses",
+    "confidence": 0.85
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.1
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.2
+  },
+  {
+    "valid": true,
+    "relation_type": "provides",
+    "confidence": 0.75
+  },
+  {
+    "valid": true,
+    "relation_type": "analyzes",
+    "confidence": 0.8
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.3
+  },
+  {
+    "valid": true,
+    "relation_type": "achieves",
+    "confidence": 0.85
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.1
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.1
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.1
+  },
+  {
+    "valid": true,
+    "relation_type": "requires",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "describes",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "uses",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "demonstrates",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "evaluates",
+    "confidence": 0.8
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.2
+  },
+  {
+    "valid": true,
+    "relation_type": "presents",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "uses",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "presents",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "processes",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "combines",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "improves",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "compares",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "demonstrates",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "presents",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "uses",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "demonstrates",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "processes",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "performs",
+    "confidence": 0.9
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.2
+  },
+  {
+    "valid": true,
+    "relation_type": "uses",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "retrieves",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "enables",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "undergoes",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "applies",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "uses",
+    "confidence": 0.85
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.1
+  },
+  {
+    "valid": true,
+    "relation_type": "accesses",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "enhances_with",
+    "confidence": 0.8
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.3
+  },
+  {
+    "valid": true,
+    "relation_type": "involves",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "measures",
+    "confidence": 0.85
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.2
+  },
+  {
+    "valid": true,
+    "relation_type": "offers",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "analyzes",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "evaluates",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "demonstrates",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "exhibits",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "displays",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "observes",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "is",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "demonstrates",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "demonstrates",
+    "confidence": 0.8
+  },
+  {
+    "valid": false,
+    "relation_type": "",
+    "confidence": 0.1
+  },
+  {
+    "valid": true,
+    "relation_type": "achieves",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "aims_to_improve",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "incorporates",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "improves_with",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "enhances_with",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "resolves_with",
+    "confidence": 0.8
+  },
+  {
+    "valid": true,
+    "relation_type": "uses",
+    "confidence": 0.9
+  },
+  {
+    "valid": true,
+    "relation_type": "based_on",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "based_on",
+    "confidence": 0.85
+  },
+  {
+    "valid": true,
+    "relation_type": "restricted_to",
+    "confidence": 0.8
+  }
+]

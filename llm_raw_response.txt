@@ -1,0 +1,2915 @@
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "utilise",
+        "object": "jeux stochastiques",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Jeux matriciels",
+        "relation": "définit",
+        "object": "tuple (n, A1..n, R1..n)",
+        "sentence": "On peut les définir comme un tuple (n, A1..n, R1..n) où n est le nombre de joueurs, Ai est l'ensemble des actions que le joueur i peut poser et Ri la matrice n-dimensions A1*...*An qui donne les bénéfices possibles pour chacune des combinaisons possibles des actions des joueurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Équilibre de Nash",
+        "relation": "représente",
+        "object": "collection de stratégies optimales",
+        "sentence": "Un équilibre de Nash montre donc une situation stable, où un mouvement léger ne peut bénéficier à personne - il s'agit donc d'un point stable à atteindre pour un algorithme d'apprentissage puisqu'il possède la qualité d'être une meilleure réponse et est souvent stable.",
+        "confidence": 0.97
+    },
+    {
+        "subject": "Problème de décision de Markov",
+        "relation": "se_formalise_par",
+        "object": "tuple (S, A, T, R)",
+        "sentence": "On peut formaliser un MDP par un tuple (S, A, T, R) où S est l'ensemble des états, A l'ensemble des actions, T la matrice S*A*S des probabilités de transition et R la matrice S*A des bénéfices.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "Jeux stochastiques",
+        "relation": "unifie",
+        "object": "modèles de décisions de Markov",
+        "sentence": "Les jeux stochastiques sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "But principal de l'apprentissage multi-agent",
+        "relation": "définit",
+        "object": "stratégie minimale de garantie de bénéfice",
+        "sentence": "Le but principal de l'apprentissage dans un système multi-agent est localement de trouver pour un agent (celui qui apprend) une stratégie qui peut offrir un minimum de garantie de bénéfice peu importe son adversaire.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "Q-learning",
+        "relation": "se_base_sur",
+        "object": "modèles de décisions de Markov",
+        "sentence": "Q-Learning est un algorithme directement emprunté à l'apprentissage par renforcement. Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques, mais a été considéré par plusieurs comme une base solide pour des développements futurs.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Agents compétitifs",
+        "relation": "reposent_sur",
+        "object": "théorie des jeux",
+        "sentence": "C'est une catégorie déjà connue par les méthodes de la théorie des jeux - et c'est de cette catégorie que se basent la plupart des algorithmes d'apprentissage multi-agents.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Jeux à somme nulle",
+        "relation": "sont_plus_faciles_à_analyser_que",
+        "object": "jeux à somme générale",
+        "sentence": "Les jeux dont la somme est à zéro (zero-sum game) sont en général plus faciles à analyser que les autres (general-sum game).",
+        "confidence": 0.96
+    },
+    {
+        "subject": "Rationalité",
+        "relation": "implique",
+        "object": "convergence vers meilleure réponse",
+        "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse aux politiques des autres joueurs.",
+        "confidence": 0.94
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "stratégie optimale",
+        "relation": "consiste_à",
+        "object": "choisir l'action avec la Q-valeur maximale",
+        "sentence": "Une fois que ces valeurs sont apprises, la stratégie optimale est de choisir l'action qui a la Q-valeur maximale.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "algorithme Q-Learning",
+        "relation": "utilise",
+        "object": "équations de mise à jour des Q-valeurs et de stratégie V(s)",
+        "sentence": "Voici les équations de mise à jour des Q-valeur et de stratégie V(s)...",
+        "confidence": 0.9
+    },
+    {
+        "subject": "algorithme Q-Learning",
+        "relation": "généralisé_pour",
+        "object": "plusieurs agents",
+        "sentence": "De cet algorithme, on peut le généraliser pour plusieurs agents tel
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "étudie",
+        "object": "algorithmes existants",
+        "sentence": "Le présent document a pour but de faire le point sur cette méthode d'apprentissage, de montrer dans quel domaine on agit, ses bases théoriques et ses buts.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "multi-agents",
+        "relation": "permet_la_coexistence_de",
+        "object": "agents divers et leurs liens",
+        "sentence": "Ce modèle permettait la coexistence simultanée d'éléments d'agents divers et de leurs liens possibles entres eux et sur l'environnement.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "multi-agents",
+        "relation": "sont_centre_d_intérêts_dans",
+        "object": "théorie des jeux",
+        "sentence": "Ces objectifs sont particulièrement importants dans les domaines de la théorie des jeux ou encore de la robotique.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "agents",
+        "relation": "sont_catégorisés_en",
+        "object": "agents indépendants",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.99
+    },
+    {
+        "subject": "agents collaboratifs",
+        "relation": "posent_problèmes_pour",
+        "object": "apprentissage local",
+        "sentence": "Les agents collaboratifs posent entre eux certains problèmes pour l'apprentissage. Il arrive qu'on se trouve face à un effet de 'classe'.",
+        "confidence": 0.85
+    },
+    {
+        "subject": "agents compétitifs",
+        "relation": "sont_bases_de",
+        "object": "algorithmes d'apprentissage multi-agents",
+        "sentence": "C'est une catégorie déjà connue par les méthodes de la théorie des jeux - et c'est de cette catégorie que se basent la plupart des algorithmes d'apprentissage multi-agents.",
+        "confidence": 0.97
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "sont_unification_de",
+        "object": "modèles de décisions de Markov et jeux matriciels",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "équilibre de Nash",
+        "relation": "représente",
+        "object": "situation stable pour algorithmes d'apprentissage",
+        "sentence": "Un équilibre de Nash montre donc une situation stable, où un mouvement léger ne peux bénéficier à personne - il s'agit donc d'un point stable à atteindre pour un algorithme d'apprentissage.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "s'appuie_sur",
+        "object": "modèles de décisions de Markov",
+        "sentence": "Q-Learning est un algorithme directement emprunté à l'apprentissage par renforcement. Cet algorithme a été fondé autour de MDP.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "est_exemple_de",
+        "object": "jeux matriciels",
+        "sentence": "Dilemme du prisonnier: deux joueurs, un état, deux actions possibles pour chaque joueur : le silence ou passer aux aveux",
+        "confidence": 0.99
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "sert_à_comparer",
+        "object": "algorithmes d'apprentissage multi-agents",
+        "sentence": "Nudelman, Wortman, Leyton-Brown et Shohav ont créé un framework de test des algorithmes d'apprentissage multi-agents appelé GAMUT [6]. Ce framework sert à comparer pour plusieurs jeux connus et relativement communs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "rationalité",
+        "relation": "se_définit_comme",
+        "object": "convergence vers meilleure réponse aux politiques stationnaires",
+        "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Bully/Minimax",
+        "relation": "est_stratégie_statique",
+        "object": "algorithmes d'apprentissage",
+        "sentence": "Bully et minimax sont deux stratégies statiques, donc elles n'apprennent pas.",
+        "confidence": 0.97
+    },
+    {
+        "subject": "jeu fictif",
+        "relation": "estime_distribution",
+        "object": "actions adverses passées",
+        "sentence": "Par le jeu fictif [3], notre agent assume que la stratégie de l'adversaire est de tirer ses actions d'une distribution fixe, et estime cette distribution en comptabilisant les fréquences de chaque action.",
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Q-Learning",
+        "relation": "utilise",
+        "object": "Q-valeur",
+        "sentence": "Une fois que ces valeurs sont apprises, la stratégie optimale est de choisir l'action qui a la Q-valeur maximale.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "définit",
+        "object": "stratégie_optimale",
+        "sentence": "la stratégie optimale est de choisir l'action qui a la Q-valeur maximale.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "équation_de_mise_à_jour",
+        "relation": "implique",
+        "object": "taux_d'apprentissage_alpha",
+        "sentence": "où a est le taux d'apprentissage et g le taux de réduction (discount).",
+        "confidence": 0.90
+    },
+    {
+        "subject": "équation_de_mise_à_jour",
+        "relation": "implique",
+        "object": "taux_de_réduction_gamma",
+        "sentence": "où a est le taux d'apprentissage et g le taux de réduction (discount).",
+        "confidence": 0.90
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "généralise",
+        "object": "multi_agent",
+        "sentence": "De cet algorithme, on peut le généraliser pour plusieurs agents tel que montré en [8].",
+        "confidence": 0.88
+    },
+    {
+        "subject": "Friend-or-Foe (FoF)",
+        "relation": "permet_de",
+        "object": "classification_Friend_Foe",
+        "sentence": "la stratégie FoF a ceci d'intéressant qu'elle a deux façon de mettre à jour les stratégies V(s), selon qu'elle a classifié le problème comme Friend (une action optimale globale existe) ou comme Foe (on trouve plutôt un point de selle).",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Friend-or-Foe (FoF)",
+        "relation": "classification_effectuée_par",
+        "object": "Q-valeurs",
+        "sentence": "Cette classification s'effectue en regardant les Q-valeurs à travers l'exécution de l'algorithme.",
+        "confidence": 0.91
+    },
+    {
+        "subject": "Filtres_de_Kalman",
+        "relation": "utilise",
+        "object": "mise_à_jour_similaire_Q-Learning",
+        "sentence": "Cet algorithme utilise une mise à jour de stratégies très similaire à celle du Q-Learning, mais comme on se trouve dans une situation où on ne connaît pas R directement, on doit l'estimer, et c'est là que les filtres de Kalman entrent en jeu.",
+        "confidence": 0.89
+    },
+    {
+        "subject": "IGA",
+        "relation": "utilise",
+        "object": "Infinitesimal_Gradient_Ascent",
+        "sentence": "IGA vient de Infinitesimal Gradient Ascent.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "IGA",
+        "relation": "converge_vers",
+        "object": "équilibre_de_Nash",
+        "sentence": "Singh, Kearns et Mansour [...] preuve de convergence vers les bénéfices espérés d'un équilibre de Nash.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "PHC",
+        "relation": "améliore",
+        "object": "Q-Learning",
+        "sentence": "PHC [...] est une amélioration du Q-Learning.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "PHC",
+        "relation": "utilise",
+        "object": "stratégie_mixte",
+        "sentence": "Plutôt que de baser le comportement d'apprentissage sur une stratégie pure [...] on utilise les Q-valeurs pour se créer une stratégie mixte (des probabilités pour chaque action).",
+        "confidence": 0.93
+    },
+    {
+        "subject": "WoLF",
+        "relation": "permet_de",
+        "object": "créer_algorithme_performant",
+        "sentence": "WoLF [...] une philosophie qu'on peut marier avec les deux algorithmes précédents pour créer des algorithmes plus performants.",
+        "confidence": 0.88
+    },
+    {
+        "subject": "WoLF",
+        "relation": "utilise",
+        "object": "deux_taux_apprentissage",
+        "sentence": "L'idée de WoLF [...] deux taux d'apprentissage, un lorsqu'on gagne et un lorsqu'on perd.",
+        "confidence": 0.91
+    },
+    {
+        "subject": "Méthode_hybride",
+        "relation": "combine",
+        "object": "jeu_fictif",
+        "sentence": "Cette nouvelle méthode propose de conjuguer 3 algorithmes faibles (jeu fictif, BullyMixed et Maximin) pour parer à plusieurs types d
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "domaine_dynamique",
+        "object": "Oui",
+        "sentence": "L'apprentissage multi-agents est un domaine relativement restreint, mais présentement très dynamique.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Agent",
+        "relation": "partie_de",
+        "object": "Intelligence artificielle",
+        "sentence": "Il y a eu récemment dans le monde de l'intelligence artificielle une mode des \"agents\", au point où on pouvait considérer tout élément d'intelligence artificielle comme un agent.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Système multi-agents",
+        "relation": "permet_la_coexistence_de",
+        "object": "agents_et_leurs_liens",
+        "sentence": "Ce modèle permettait la coexistence simultanée d'éléments d'agents divers et de leurs liens possibles entres eux et sur l'environnement.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "appliqué_dans",
+        "object": "Théorie des jeux",
+        "sentence": "Ces objectifs sont particulièrement importants dans les domaines de la théorie des jeux ou encore de la robotique (soit directement physique, soit sur Internet - aussi appelés bots).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "appliqué_dans",
+        "object": "Robotique",
+        "sentence": "Ces objectifs sont particulièrement importants dans les domaines de la théorie des jeux ou encore de la robotique (soit directement physique, soit sur Internet - aussi appelés bots).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Agent",
+        "relation": "environnement_variable",
+        "object": "Oui",
+        "sentence": "Parmi les éléments importants des agents est que leur environnement est variable, et comme plusieurs éléments d'intelligence artificielle, on désire que notre agent soit capable de s'adapter aux changements.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Type de relation d'agents",
+        "relation": "comprend",
+        "object": "Agents indépendants",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Type de relation d'agents",
+        "relation": "comprend",
+        "object": "Agents collaboratifs",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Type de relation d'agents",
+        "relation": "comprend",
+        "object": "Agents compétitifs",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Agent indépendant",
+        "relation": "effet_similaire_à",
+        "object": "bruit_environnement",
+        "sentence": "La présence d'agents indépendants est la moins importante pour l'apprentissage. Comme leurs buts ne sont pas liés, l'effet d'un agent indépendant sur notre apprentissage se trouve alors similaire à un bruit qu'on pourrait assimiler aux variations de l'environnement.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Agent collaboratif",
+        "relation": "pose_problème_d'effet_de_classe",
+        "object": "Oui",
+        "sentence": "Les agents collaboratifs posent entre eux certains problèmes pour l'apprentissage. Il arrive qu'on se trouve face à un effet de \"classe\". Les bénéfices du système peuvent se donner pour tous les agents en même temps, ce qui rend l'apprentissage à un niveau local difficile.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Agent compétitif",
+        "relation": "a_pour_base",
+        "object": "Théorie
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Pair-Impair",
+        "relation": "est_composé_de",
+        "object": "deux joueurs",
+        "sentence": "Pair-Impair: deux joueurs, un état, deux actions possibles pour chaque joueur : pair ou impair",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Pair-Impair",
+        "relation": "est_composé_de",
+        "object": "un état",
+        "sentence": "Pair-Impair: deux joueurs, un état, deux actions possibles pour chaque joueur : pair ou impair",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Pair-Impair",
+        "relation": "permet_de",
+        "object": "pair ou impair",
+        "sentence": "Pair-Impair: deux joueurs, un état, deux actions possibles pour chaque joueur : pair ou impair",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "est_composé_de",
+        "object": "deux joueurs",
+        "sentence": "Dilemme du prisonnier: deux joueurs, un état, deux actions possibles pour chaque joueur : le silence ou passer aux aveux",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "est_composé_de",
+        "object": "un état",
+        "sentence": "Dilemme du prisonnier: deux joueurs, un état, deux actions possibles pour chaque joueur : le silence ou passer aux aveux",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "permet_de",
+        "object": "silence ou passer aux aveux",
+        "sentence": "Dilemme du prisonnier: deux joueurs, un état, deux actions possibles pour chaque joueur : le silence ou passer aux aveux",
+        "confidence": 0.95
+    },
+    {
+        "subject": "roche-papier-ciseaux",
+        "relation": "est_composé_de",
+        "object": "deux joueurs",
+        "sentence": "roche-papier-ciseaux: deux joueurs, un état, trois actions possibles pour chaque joueur : roche, papier ou ciseaux",
+        "confidence": 0.95
+    },
+    {
+        "subject": "roche-papier-ciseaux",
+        "relation": "est_composé_de",
+        "object": "un état",
+        "sentence": "roche-papier-ciseaux: deux joueurs, un état, trois actions possibles pour chaque joueur : roche, papier ou ciseaux",
+        "confidence": 0.95
+    },
+    {
+        "subject": "roche-papier-ciseaux",
+        "relation": "permet_de",
+        "object": "roche, papier ou ciseaux",
+        "sentence": "roche-papier-ciseaux: deux joueurs, un état, trois actions possibles pour chaque joueur : roche, papier ou ciseaux",
+        "confidence": 0.95
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "développe",
+        "object": "Nudelman, Wortman, Leyton-Brown et Shohav",
+        "sentence": "Nudelman, Wortman, Leyton-Brown et Shohav ont créé un framework de test des algorithmes d'apprentissage multi-agents appelé GAMUT [6].",
+        "confidence": 0.95
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "permet_de",
+        "object": "comparer des algorithmes d'apprentissage multi-agents",
+        "sentence": "Ce framework sert à comparer pour plusieurs jeux connus et relativement communs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "rationalité",
+        "relation": "définit",
+        "object": "propriété",
+        "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse aux politiques des autres joueurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "convergence",
+        "relation": "caractérise",
+        "object": "algorithme d'apprentissage",
+        "sentence": "La convergence est une caractéristique relativement simple. Elle requiert que notre algorithme d'apprentissage converge vers une politique stationnaire.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "self-play",
+        "relation": "utilise",
+        "object": "entraînement contre un clone",
+        "sentence": "Le self-play consiste à entraîner notre agent apprenant contre son clone, qui apprend parallèlement avec le même algorithme d'apprentissage.",
+        "confidence": 0.95
+    },
+    {
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Q-Learning",
+        "relation": "founded_on",
+        "object": "MDP",
+        "sentence": "Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques, mais a été considéré par plusieurs comme une base solide pour des développements futurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "estimates",
+        "object": "Q-valeur",
+        "sentence": "Q-Learning se base sur des estimations de paires état-action. La valeur Q(s,a) est définie comme étant l'estimation des bénéfices futurs (réduits).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-valeur",
+        "relation": "determines_optimal_strategy",
+        "object": "action maximale",
+        "sentence": "Une fois que ces valeurs sont apprises, la stratégie optimale est de choisir l'action qui a la Q-valeur maximale.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "generalized_for",
+        "object": "multi-agents",
+        "sentence": "De cet algorithme, on peut le généraliser pour plusieurs agents tel que montré en [8].",
+        "confidence": 0.90
+    },
+    {
+        "subject": "Filtres de Kalman",
+        "relation": "simplifies",
+        "object": "problème multi-états",
+        "sentence": "L'utilisation de filtres de Kalman [4] est une manière de simplifier un problème à plusieurs états et plusieurs agents proposé par Chang, Ho et Kaebling.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Filtres de Kalman",
+        "relation": "estimates",
+        "object": "R (récompense)",
+        "sentence": "Cet algorithme utilise une mise à jour de stratégies très similaire à celle du Q-Learning, mais comme on se trouve dans une situation où on ne connaît pas R directement, on doit l'estimer, et c'est là que les filtres de Kalman entrent en jeu.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "IGA",
+        "relation": "applies",
+        "object": "montée de gradient infinitésimale",
+        "sentence": "IGA vient de Infinitesimal Gradient Ascent. De fait, on applique ici une montée de gradient très légère, avec un taux d'apprentissage variable qui tend vers zéro (d'où la notion d'infinitésimal).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "IGA",
+        "relation": "proves_convergence",
+        "object": "équilibre de Nash",
+        "sentence": "Cette façon de faire, introduite par Singh, Kearns et Mansour, vient avec une preuve de convergence vers les bénéfices espérés d'un équilibre de Nash.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "PHC",
+        "relation": "improves",
+        "object": "Q-Learning",
+        "sentence": "PHC, pour Policy Hill-Climbing est une
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "est_domaine_dynamique",
+        "object": "domaine d'intelligence artificielle",
+        "sentence": "L'apprentissage multi-agents est un domaine relativement restreint, mais présentement très dynamique.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "agents",
+        "relation": "catégorisés_en",
+        "object": "agents indépendants",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "agents collaboratifs",
+        "relation": "provoque",
+        "object": "effet de classe",
+        "sentence": "Il arrive qu'on se trouve face à un effet de \"classe\". Les bénéfices du système peuvent se donner pour tous les agents en même temps, ce qui rend l'apprentissage à un niveau local difficile.",
+        "confidence": 0.85
+    },
+    {
+        "subject": "agents compétitifs",
+        "relation": "fonde_sur",
+        "object": "théorie des jeux",
+        "sentence": "C'est une catégorie déjà connue par les méthodes de la théorie des jeux - et c'est de cette catégorie que se basent la plupart des algorithmes d'apprentissage multi-agents.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "algorithmes d'apprentissage multi-agents",
+        "relation": "se_base_sur",
+        "object": "modèles de décisions de Markov",
+        "sentence": "Les algorithmes d'apprentissage multi-agents se basent sur deux modèles déjà connus, les modèles de décisions de Markov et les jeux matriciels.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "combinaison_de",
+        "object": "jeux matriciels",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "équilibre de Nash",
+        "relation": "représente",
+        "object": "situation stable",
+        "sentence": "Un équilibre de Nash montre donc une situation stable, où un mouvement léger ne peux bénéficier à personne - il s'agit donc d'un point stable à atteindre pour un algorithme d'apprentissage.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Problème de décision de Markov",
+        "relation": "formalisé_par",
+        "object": "tuple (S, A, T, R)",
+        "sentence": "On peut formaliser un MDP par un tuple (S, A, T, R) où S est l'ensemble des états, A l'ensemble des actions, T la matrice S*A*S des probabilités de transition et R la matrice S*A des bénéfices.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "utilisé_comme_framework",
+        "object": "algorithmes d'apprentissage multi-agents",
+        "sentence": "Les jeux stochastiques sont le framework qui est grandement utilisé pour les algorithmes d'apprentissage des systèmes multi-agents.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "jeux à somme nulle",
+        "relation": "comparé_à",
+        "object": "jeux à somme générale",
+        "sentence": "Les jeux dont la somme est à zéro (zero-sum game) sont en général plus faciles à analyser que les autres (general-sum game).",
+        "confidence": 0.85
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Pair-Impair",
+        "relation": "également_appelé",
+        "object": "matching pennies",
+        "sentence": "Pair-Impair: deux joueurs, un état, deux actions possibles pour chaque joueur : pair ou impair (ce jeu est également appelé matching pennies dans la littérature)",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Pair-Impair",
+        "relation": "est_composé_de",
+        "object": "deux_joueurs",
+        "sentence": "Pair-Impair: deux joueurs, un état, deux actions possibles pour chaque joueur : pair ou impair",
+        "confidence": 0.99
+    },
+    {
+        "subject": "Pair-Impair",
+        "relation": "est_composé_de",
+        "object": "deux_actions",
+        "sentence": "Pair-Impair: deux joueurs, un état, deux actions possibles pour chaque joueur : pair ou impair",
+        "confidence": 0.99
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "est_composé_de",
+        "object": "deux_joueurs",
+        "sentence": "Dilemme du prisonnier: deux joueurs, un état, deux actions possibles pour chaque joueur : le silence ou passer aux aveux",
+        "confidence": 0.99
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "est_composé_de",
+        "object": "deux_actions",
+        "sentence": "Dilemme du prisonnier: deux joueurs, un état, deux actions possibles pour chaque joueur : le silence ou passer aux aveux",
+        "confidence": 0.99
+    },
+    {
+        "subject": "roche-papier-ciseaux",
+        "relation": "est_composé_de",
+        "object": "trois_actions",
+        "sentence": "roche-papier-ciseaux: deux joueurs, un état, trois actions possibles pour chaque joueur : roche, papier ou ciseaux",
+        "confidence": 0.99
+    },
+    {
+        "subject": "jeux matriciels simples",
+        "relation": "utilisés_pour",
+        "object": "vérifier_validité_algorithmes",
+        "sentence": "Ces exemples sont seulement des jeux matriciels simples (2 joueurs, peu d'actions), [...] pour vérifier la validité des algorithmes d'apprentissage multi-agents.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "a_été_créé_par",
+        "object": "Nudelman, Wortman, Leyton-Brown et Shohav",
+        "sentence": "Nudelman, Wortman, Leyton-Brown et Shohav ont créé un framework de test des algorithmes d'apprentissage multi-agents appelé GAMUT [6].",
+        "confidence": 0.97
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "sert_à",
+        "object": "comparer_algorithmes",
+        "sentence": "Ce framework sert à comparer pour plusieurs jeux connus et relativement communs.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "apprentissage multi-agent",
+        "relation": "a_pour_but",
+        "object": "trouver_stratégie_min_garantie",
+        "sentence": "Le but principal de l'apprentissage dans un système multi-agent est localement de trouver pour un agent [...] une stratégie qui peut offrir un minimum de garantie de bénéfice peu importe son adversaire.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "self-play",
+        "relation": "consiste_à",
+        "object": "entraîner_agent_contre_clone",
+        "sentence": "Le self-play consiste à entraîner notre agent apprenant contre son clone, qui apprend parallèlement avec le même algorithme d'apprentissage.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "rationalité",
+        "relation": "se_définit_comme",
+        "object": "convergence_vers_meilleure_réponse",
+        "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "convergence",
+        "relation": "exige_que",
+        "object": "algorithme_converge_vers_politique_stationnaire",
+        "sentence": "La convergence est une caractéristique relativement simple. Elle requiert que notre algorithme d'apprentissage converge vers une politique stationnaire.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "sécurité (no-regret)",
+        "relation": "demande_que",
+        "object": "algorithme_obtienne_bénéfice_maximin",
+        "sentence": "La sécurité (safety), où encore le non-regret (no-regret) est une autre qualité que l'on recherche [...] la règle d'apprentissage au moins le bénéfice du maximin.",
+        "confidence": 0.91
+    },
+    {
+        "subject": "Bully",
+        "relation": "est_stratégie_de",
+        "object": "maximiser_bénéfice_en_supposant_adversaire_maximise_le_sien
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Q-Learning",
+        "relation": "founded_on",
+        "object": "MDP",
+        "sentence": "Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques, mais a été considéré par plusieurs comme une base solide pour des développements futurs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "generalized_for",
+        "object": "multi-agent systems",
+        "sentence": "De cet algorithme, on peut le généraliser pour plusieurs agents tel que montré en [8].",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "defines",
+        "object": "Q-value",
+        "sentence": "La valeur Q(s,a) est définie comme étant l'estimation des bénéfices futurs (réduits).",
+        "confidence": 0.97
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "determines_optimal_strategy",
+        "object": "maximal Q-value action",
+        "sentence": "Une fois que ces valeurs sont apprises, la stratégie optimale est de choisir l'action qui a la Q-valeur maximale.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "Kalman Filters",
+        "relation": "applies_to",
+        "object": "collaborative multi-agent systems",
+        "sentence": "L'idée de cet algorithme est, dans un système collaboratif (où plusieurs agents ont des buts communs), d'être capable d'isoler le 'bruit' que causent les autres agents en regard à une récompense totale.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "Kalman Filters",
+        "relation": "estimates",
+        "object": "R (reward function)",
+        "sentence": "Cet algorithme utilise une mise à jour de stratégies très similaire à celle du Q-Learning, mais comme on se trouve dans une situation où on ne connaît pas R directement, on doit l'estimer, et c'est là que les filtres de Kalman entrent en jeu.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "IGA",
+        "relation": "based_on",
+        "object": "Infinitesimal Gradient Ascent",
+        "sentence": "IGA vient de Infinitesimal Gradient Ascent. De fait, on applique ici une montée de gradient très légère, avec un taux d'apprentissage variable qui tend vers zéro (d'où la notion d'infinitésimal).",
+        "confidence": 0.97
+    },
+    {
+        "subject": "IGA",
+        "relation": "proves_convergence_to",
+        "object": "Nash equilibrium expected payoffs",
+        "sentence": "Cette façon de faire, introduite par Singh, Kearns et Mansour, vient avec une preuve de convergence vers les bénéfices espérés d'un équilibre de Nash.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "PHC",
+        "relation": "improves",
+        "object": "Q-Learning",
+        "sentence": "PHC, pour Policy Hill-Climbing est une amélioration du Q-Learning.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "PHC",
+        "relation": "uses_mixed_strategy",
+        "object": "probability distribution over actions",
+        "sentence": "Plutôt que de baser le comportement d'apprentissage sur une stratégie pure (une seule action peut être choisi selon l'état), on utilise les Q-valeurs pour se créer une stratégie mixte (des probabilités pour chaque action).",
+        "confidence": 0.94
+    },
+    {
+        "subject": "WoLF",
+        "relation": "combined_with",
+        "object": "IGA/PHC algorithms",
+        "sentence": "L'idée de WoLF [...] est d'avoir deux taux d'apprentissage [...] Il s'agit de WoLF-IGA, WoLF-PHC et GIGA-WoLF [2].",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Hybrid Method",
+        "relation": "combines",
+        "object": "Fictitious Play, BullyMixed, Maximin",
+        "sentence": "Cette nouvelle méthode propose de conjuguer 3 algorithmes faibles (jeu fictif, BullyMixed et Maximin) pour parer à plusieurs types d'opposants.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Hybrid Method",
+        "relation": "possesses_property",
+        "object": "no-regret guarantee",
+        "sentence": "MetaStrategy possède la qualité de non-regret.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "Multi-Agent Learning",
+        "relation": "differs_from",
+        "object": "Classical Learning",
+        "sentence": "À première vue, l'apprentissage multi-agent et l'apprentissage classique n'ont que peu d'éléments en commun, à part le terme apprentissage lui-même.",
+        "confidence": 0.94
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Algorithmes d'apprentissage multi-agents",
+        "relation": "intègre_les_fondements_théoriques_de",
+        "object": "Théorie des jeux et modèles de décisions de Markov",
+        "sentence": "Synthèse basée sur les triplets 4 (théorie des jeux), 5 (MDP) et 9 (jeux stochastiques comme framework)",
+        "confidence": 0.92
+    },
+    {
+        "subject": "Systèmes collaboratifs multi-agents",
+        "relation": "fait_face_à_des_défis_spécifiques_via",
+        "object": "Filtres de Kalman",
+        "sentence": "Synthèse basée sur les triplets 3 (effet de classe) et 15-16 (Filtres de Kalman pour isoler le bruit)",
+        "confidence": 0.91
+    },
+    {
+        "subject": "Algorithmes compétitifs multi-agents",
+        "relation": "vise_à_atteindre",
+        "object": "Équilibre de Nash",
+        "sentence": "Synthèse basée sur les triplets 7 (définition de l'équilibre de Nash), 17-18 (IGA convergeant vers cet équilibre) et 21 (WoLF combiné avec IGA/PHC)",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Méthodes hybrides",
+        "relation": "combine_approches_complémentaires_pour",
+        "object": "Robustesse face à divers adversaires",
+        "sentence": "Synthèse basée sur les triplets 22 (combinaison de jeu fictif, BullyMixed, Maximin) et 23 (garantie de non-regret)",
+        "confidence": 0.94
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "sert_de_base_pour",
+        "object": "Algorithmes multi-agents",
+        "sentence": "Synthèse basée sur les triplets 11 (fondation sur MDP), 12 (généralisation multi-agent), 14 (stratégie optimale) et 19 (amélioration via PHC)",
+        "confidence": 0.96
+    },
+    {
+        "subject": "Jeux stochastiques",
+        "relation": "unifie_les_modèles_de",
+        "object": "Décision de Markov et jeux matriciels",
+        "sentence": "Synthèse basée sur les triplets 5 (MDP comme fondation), 6 (combinaison de jeux matriciels et MDP) et 9 (framework pour apprentissage multi-agent)",
+        "confidence": 0.95
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "est_un_domaine_dynamique",
+        "object": "domaine restreint mais dynamique",
+        "sentence": "L'apprentissage multi-agents est un domaine relativement restreint, mais présentement très dynamique.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "agents",
+        "relation": "appartient_au_domaine",
+        "object": "intelligence artificielle",
+        "sentence": "Il y a eu récemment dans le monde de l'intelligence artificielle une mode des 'agents', au point où on pouvait considérer tout élément d'intelligence artificielle comme un agent.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "multi-agents",
+        "relation": "est_un_centre_d_intérêt",
+        "object": "sujet viable",
+        "sentence": "Si le vocable 'agent' a relativement reculé, un sujet relié, les multi-agents, est resté comme un centre d'intérêts viable.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "agents collaboratifs",
+        "relation": "pose_des_problèmes_pour_l_apprentissage",
+        "object": "effet de 'classe'",
+        "sentence": "Il arrive qu'on se trouve face à un effet de 'classe'. Les bénéfices du système peuvent se donner pour tous les agents en même temps, ce qui rend l'apprentissage à un niveau local difficile.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "agents compétitifs",
+        "relation": "définit",
+        "object": "buts opposés",
+        "sentence": "Les agents sont en compétition et ont des buts opposés, où la réussite peut très bien passer par la 'défaite' des autres agents.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "algorithmes d'apprentissage multi-agents",
+        "relation": "se_base_sur",
+        "object": "théorie des jeux",
+        "sentence": "C'est une catégorie déjà connue par les méthodes de la théorie des jeux - et c'est de cette catégorie que se basent la plupart des algorithmes d'apprentissage multi-agents.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "est_une_combinaison_de",
+        "object": "modèles de décisions de Markov",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "est_une_combinaison_de",
+        "object": "jeux matriciels",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "équilibre de Nash",
+        "relation": "définit",
+        "object": "situation stable",
+        "sentence": "Un équilibre de Nash montre donc une situation stable, où un mouvement léger ne peut bénéficier à personne - il s'agit donc d'un point stable à atteindre pour un algorithme d'apprentissage puisqu'il possède la qualité d'être une meilleure réponse et est souvent stable.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux matriciels",
+        "relation": "possède",
+        "object": "équilibre de Nash",
+        "sentence": "La grande qualité des équilibres de Nash est que chaque jeu matriciel possède un équilibre de Nash, et peut même en posséder plusieurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "problème de décision de Markov",
+        "relation": "est_formalisé_par",
+        "object": "tuple (S, A, T, R)",
+        "sentence": "On peut formaliser un MDP par un tuple (S, A, T, R) où S est l'ensemble des états, A l'ensemble des actions, T la matrice S*A*S des probabilités de transition et R la matrice S*A des bénéfices.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "est_le_framework_utilisé_pour",
+        "object": "algorithmes d'apprentissage multi-agents",
+        "sentence": "Les jeux stochastiques sont le framework qui est grandement utilisé pour les algorithmes d'apprentissage des systèmes multi-agents.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux à somme nulle",
+        "relation": "est_plus_facile_à_analyser_que",
+        "object": "jeux à somme générale",
+        "sentence": "Les jeux dont la somme est à zéro (zero-sum game) sont en général plus faciles à analyser que les autres (general-sum game
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Pair-Impair",
+        "relation": "is_known_as",
+        "object": "matching pennies",
+        "sentence": "(ce jeu est également appelé matching pennies dans la littérature)",
+        "confidence":
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Q-Learning",
+        "relation": "est_basé_sur",
+        "object": "MDP",
+        "sentence": "Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques, mais a été considéré par plusieurs comme une base solide pour des développements futurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "utilise",
+        "object": "taux_d'apprentissage_alpha",
+        "sentence": "où a est le taux d'apprentissage et g le taux de réduction (discount).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "utilise",
+        "object": "taux_de_réduction_gamma",
+        "sentence": "où a est le taux d'apprentissage et g le taux de réduction (discount).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "a_comme_extension",
+        "object": "minimax-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "a_comme_extension",
+        "object": "Nash-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "a_comme_extension",
+        "object": "Friend-or-Foe",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "a_comme_extension",
+        "object": "CE-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Friend-or-Foe",
+        "relation": "classifie_problème",
+        "object": "Friend",
+        "sentence": "La stratégie FoF a ceci d'intéressant qu'elle a deux façon de mettre à jour les stratégies V(s), selon qu'elle a classifié le problème comme Friend (une action optimale globale existe) ou comme Foe (on trouve plutôt un point de selle).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Friend-or-Foe",
+        "relation
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Powers, R. and Shoham, Y.",
+        "relation": "auteur_de",
+        "object": "New criteria and a new algorithm for learning in multi-agent systems",
+        "sentence": "[7] Powers, R., Shoham, Y. (2004). New criteria and a new algorithm for learning in multi-agent systems. In Proceedings of the 17th Neural Information Processing Systems (NIPS)",
+        "confidence": 0.95
+    },
+    {
+        "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+        "relation": "présente",
+        "object": "nouvel algorithme pour les systèmes multi-agents",
+        "sentence": "[7] Powers, R., Shoham, Y. (2004). New criteria and a new algorithm for learning in multi-agent systems. In Proceedings of the 17th Neural Information Processing Systems (NIPS)",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Shoham, Y., Powers, R., & Grenager, T.",
+        "relation": "auteur_de",
+        "object": "Multi-Agent Reinforcement Learning: a critical survey",
+        "sentence": "[8] Shoham, Y., Powers, R., & Grenager, T. (2003). Multi-Agent Reinforcement Learning: a critical survey. Technical Report.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Multi-Agent Reinforcement Learning: a critical survey",
+        "relation": "type_de_publication",
+        "object": "Rapport technique",
+        "sentence": "[8] Shoham, Y., Powers, R., & Grenager, T. (2003). Multi-Agent Reinforcement Learning: a critical survey. Technical Report.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Singh, S., Kearns, M., & Mansour, Y.",
+        "relation": "auteur_de",
+        "object": "Nash convergence of gradient dynamics in general sum games",
+        "sentence": "[9] Singh, S., Kearns, M., & Mansour, Y. (2000). Nash convergence of gradient dynamics in general sum games. In Proceedings of UAI-2000, pp. 541-548, Morgan Kaufman.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Nash convergence of gradient dynamics in general sum games",
+        "relation": "démontre",
+        "object": "convergence de Nash dans les jeux à somme générale",
+        "sentence": "[9] Singh, S., Kearns, M., & Mansour, Y. (2000). Nash convergence of gradient dynamics in general sum games. In Proceedings of UAI-2000, pp. 541-548, Morgan Kaufman.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Martin Zinkevich",
+        "relation": "auteur_de",
+        "object": "Online convex programming and generalized infinitesimal gradient ascent",
+        "sentence": "[10] Martin Zinkevich. Online convex programming and generalized infinitesimal gradient ascent. In Proceedings of the Twentieth International Conference on Machine Learning, pages 928–925, 2003.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Online convex programming and generalized infinitesimal gradient ascent",
+        "relation": "propose",
+        "object": "programmation convexe en ligne",
+        "sentence": "[10] Martin Zinkevich. Online convex programming and generalized infinitesimal gradient ascent. In Proceedings of the Twentieth International Conference on Machine Learning, pages 928–925, 2003.",
+        "confidence": 0.9
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "augments",
+        "object": "large language models (LLMs)",
+        "sentence": "We present chain-of-knowledge (CoK) , a novel framework that augments large language models (LLMs) by dynamically incorporating grounding information from heterogeneous sources.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "leverages",
+        "object": "structured knowledge sources",
+        "sentence": "Unlike prior studies that primarily use unstructured data, CoK also leverages structured knowledge sources such as Wikidata and tables that provide more reliable factual information.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "adaptive query generator",
+        "relation": "allows_generation_of",
+        "object": "queries for various types of query languages",
+        "sentence": "we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "corrects_progressively",
+        "object": "rationales",
+        "sentence": "CoK corrects the rationales progressively using preceding corrected rationales to generate and correct subsequent rationales.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "includes_stage",
+        "object": "reasoning preparation",
+        "sentence": "Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "includes_stage",
+        "object": "dynamic knowledge adapting",
+        "sentence": "Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "includes_stage",
+        "object": "answer consolidation",
+        "sentence": "Specifically, CoK consists of three stages: reasoning preparation, dynamic knowledge adapting, and answer consolidation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "dynamic knowledge adapting",
+        "relation": "accesses",
+        "object": "unstructured and structured knowledge sources",
+        "sentence": "To access both unstructured and structured knowledge sources in the dynamic knowledge adapting stage, we propose an adaptive query generator that allows the generation of queries for various types of query languages, including SPARQL, SQL, and natural sentences.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "reduces",
+        "object": "hallucination in LLMs",
+        "sentence": "It results in more factual rationales and reduced hallucination in generation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "El Tio Disparate",
+        "relation": "directed_by",
+        "object": "Palito Ortega",
+        "sentence": "First, the Argentine actor who directed El Tio Disparate is Palito Ortega.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge (CoK)",
+        "relation": "identifies_domains",
+        "object": "factual (Wikidata, Wikipedia)",
+        "sentence": "Identified domains: factual (Wikidata, Wikipedia)",
+        "confidence": 0.95
+    },
+    {
+        "subject": "chain-of-knowledge
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "CoK framework",
+        "relation": "consists_of",
+        "object": "Reasoning preparation stage",
+        "sentence": "As shown in Figure 2, the CoK framework consists of three stages: (1) reasoning preparation, (2) dynamic knowledge adapting, and (3) answer consolidation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK framework",
+        "relation": "consists_of",
+        "object": "Dynamic knowledge adapting stage",
+        "sentence": "As shown in Figure 2, the CoK framework consists of three stages: (1) reasoning preparation, (2) dynamic knowledge adapting, and (3) answer consolidation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK framework",
+        "relation": "consists_of",
+        "object": "Answer consolidation stage",
+        "sentence": "As shown in Figure 2, the CoK framework consists of three stages: (1) reasoning preparation, (2) dynamic knowledge adapting, and (3) answer consolidation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Adaptive Query Generator (AQG)",
+        "relation": "employed_in",
+        "object": "Dynamic knowledge adapting stage",
+        "sentence": "In the subsequent dynamic knowledge adapting stage, an adaptive query generator (AQG) is employed to generate queries for the knowledge sources within the selected domains.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Adaptive Query Generator (AQG)",
+        "relation": "generates",
+        "object": "SPARQL query",
+        "sentence": "AQG can adaptively generate queries of the corresponding types, such as SPARQL and natural sentence",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Adaptive Query Generator (AQG)",
+        "relation": "generates",
+        "object": "natural sentence query",
+        "sentence": "AQG can adaptively generate queries of the corresponding types, such as SPARQL and natural sentence",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Adaptive Query Generator (AQG)",
+        "relation": "can_be",
+        "object": "Llama-2-LoRA",
+        "sentence": "AQG is versatile and can either be a fine-tuned model like Llama-2 (Touvron et al., 2023) with LoRA (Hu et al., 2021) or an off-the-shelf LLM like ChatGPT.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Adaptive Query Generator (AQG)",
+        "relation": "can_be",
+        "object": "ChatGPT",
+        "sentence": "AQG is versatile and can either be a fine-tuned model like Llama-2 (Touvron et al., 2023) with LoRA (Hu et al., 2021) or an off-the-shelf LLM like ChatGPT.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK framework",
+        "relation": "corrects_progressively",
+        "object": "rationales",
+        "sentence": "CoK corrects the rationales progressively, ensuring that inaccuracies from preceding rationales do not propagate into the subsequent steps",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK framework",
+        "relation": "allows_for",
+        "object": "better factual accuracy",
+        "sentence": "By leveraging both unstructured and structured knowledge sources, CoK allows for better factual accuracy, improved reliability, and easier information updates.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Wikidata",
+        "relation": "linked_to",
+        "object": "SPARQL query",
+        "sentence": "For instance, Wikidata is linked to the SPARQL query as it consists of knowledge graphs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Flashcard source",
+        "relation": "linked_to",
+        "object": "natural sentence query",
+        "sentence": "The flashcard source is linked to the natural sentence query as it takes the format of natural sentence pairs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK framework",
+        "relation": "outperforms",
+        "object": "CoT baseline",
+        "sentence": "CoK outperforms the CoT baseline by 4.3% on average.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Adaptive Query Generator (AQG)",
+        "relation": "purpose",
+        "object": "generate queries tailored to knowledge sources",
+        "sentence": "We propose an adaptive query generator (AQG), specially designed to generate queries tailored to each knowledge source.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK framework",
+        "relation": "
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "AQG",
+        "relation": "generates_queries_for",
+        "object": "SPARQL",
+        "sentence": "To facilitate the generation of both structured and unstructured queries, an adaptive query generator (AQG) is used.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "can_be_implemented_as",
+        "object": "tailor-finetuned model",
+        "sentence": "AQG is a versatile plug-in component, which can be either a tailor-finetuned model or an off-the-shelf LLM.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "can_be_implemented_as",
+        "object": "off-the-shelf LLM",
+        "sentence": "AQG is a versatile plug-in component, which can be either a tailor-finetuned model or an off-the-shelf LLM.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "SPARQL_query",
+        "relation": "executed_by",
+        "object": "Wikidata API",
+        "sentence": "entity linking is initially performed to substitute entity spans with IDs, followed by acquiring results by invoking the API of wikidata.org",
+        "confidence": 0.95
+    },
+    {
+        "subject": "SQL_query",
+        "relation": "executed_directly_by",
+        "object": "database",
+        "sentence": "SQL queries are executed directly to fetch the results, which could be a singular value or a subset of the original table.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "involves",
+        "object": "rationale_correction",
+        "sentence": "CoK involves a progressive rationale correction step. Given the current rationale and the formatted knowledge from various knowledge sources, a corrected rationale is generated to replace the current one.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "rationale_correction",
+        "relation": "prevents",
+        "object": "error_propagation",
+        "sentence": "This step helps in rectifying any factual incorrectness and preventing error propagation.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "utilizes",
+        "object": "ChatGPT",
+        "sentence": "For general factual knowledge sources, such as Wikipedia, ChatGPT is utilized.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "utilizes",
+        "object": "LLaMA-2-7B_with_LoRA",
+        "sentence": "For domain-specific knowledge sources, instruction-tune LLaMA-2-7B using LoRA with pairs of input texts and output queries.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "outperforms",
+        "object": "ReAct",
+        "sentence": "Existing methods such as ReAct (Yao et al., 2023) and Verify-and-Edit (Zhao et al., 2023c) keep all retrieved information in the context throughout the process, no matter if it contains reasoning mistakes.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "CoK",
+        "relation": "outperforms",
+        "object": "Verify-and-Edit",
+        "sentence": "Existing methods such as ReAct (Yao et al., 2023) and Verify-and-Edit (Zhao et al., 2023c) keep all retrieved information in the context throughout the process, no matter if it contains reasoning mistakes.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "CoK",
+        "relation": "achieves_higher_accuracy_than",
+        "object": "Standard_prompting",
+        "sentence": "Table 2: Main experimental results across various domains. CoK (3-shot) 63.4% vs. Standard (3-shot) 51.8%",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Structured_query_languages",
+        "relation": "provide",
+        "object": "direct_factual_results",
+        "sentence": "Structured knowledge sources (e.g., Wikidata and tables) provide direct factual results.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Unstructured_query_languages",
+        "relation": "lead_to",
+        "object": "irrelevant_information",
+        "sentence": "Querying unstructured knowledge sources often leads to the retrieval of irrelevant and redundant information.",
+        "confidence": 0.95
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "CoT",
+        "relation": "generates",
+        "object": "intermediate_rationales",
+        "sentence": "B) Chain-of-thought ( CoT ) (Wei et al., 2022) generates several intermediate rationales before the final answer to improve the complex reasoning capability of LLMs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoT-SC",
+        "relation": "uses",
+        "object": "self_consistency",
+        "sentence": "C) CoT with self-consistency ( CoT-SC ) (Wang et al., 2023) replaces the naive greedy decoding in CoT with sampling a diverse set of rationales and outputs the most consistent answers.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Verify-and-Edit",
+        "relation": "improves",
+        "object": "prediction_factuality",
+        "sentence": "D) Verify-and-Edit ( VE) (Zhao et al., 2023c) is a state-of-the-art, CoT-based framework that seeks to improve the prediction factuality by post-editing rationales with external knowledge.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "ReAct",
+        "relation": "combines",
+        "object": "agent_thoughts_and_open-domain_knowledge_search",
+        "sentence": "E) ReAct (Yao et al., 2023) combines agent thoughts and open-domain knowledge search to reach a final answer.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "outperforms",
+        "object": "CoT_and_CoT-SC",
+        "sentence": "CoK consistently outperforms CoT and CoT-SC on each dataset.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "CoK",
+        "relation": "uses",
+        "object": "dynamic_knowledge_adapting",
+        "sentence": "CoK alleviates this issue with progressive knowledge adapting.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoT",
+        "relation": "struggles_with",
+        "object": "hallucination_in_knowledge_intensive_tasks",
+        "sentence": "This illustrates that, while CoT is effective for addressing complex reasoning tasks, it struggles with hallucination in its rationales when handling knowledge-intensive tasks, leading to incorrect answers.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "improves_performance_with",
+        "object": "multiple_knowledge_domains",
+        "sentence": "Compared to only using Medical domain knowledge, CoK using additional knowledge from the Biology domain further improves the performance by 1.3%.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "ReAct",
+        "relation": "uses",
+        "object": "PaLM_model",
+        "sentence": "We report the results for ReAct separately in Table 3 as it uses the PaLM model (Chowdhery et al., 2022).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "achieves_higher_rationale_factuality_than",
+        "object": "CoT-SC",
+        "sentence": "CoK 66.3% 69.5% Table 6: Comparison of the factual accuracy of rationales on HotpotQA.",
+        "confidence": 0.95
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "CoK",
+        "relation": "utilizes",
+        "object": "multiple knowledge sources",
+        "sentence": "as shown in Table 4, the performance of CoK improves by 2.1% when utilizing both Flashcard and UpToDate as medical knowledge sources, compared to using only Flashcard.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "dynamic knowledge adapting",
+        "relation": "improves",
+        "object": "CoK performance",
+        "sentence": "the performance of CoK improves by 4.2% compared with CoT when dynamic knowledge adapting is applied.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "parallel editing",
+        "relation": "leads_to",
+        "object": "error propagation",
+        "sentence": "parallel editing leads to poorer performance due to error propagation for rationales.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "CoK",
+        "relation": "improves",
+        "object": "factual accuracy",
+        "sentence": "CoK has improved factual accuracy compared to the CoT-SC baseline on the HotpotQA dataset.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoT-SC",
+        "relation": "exhibits_decreased_factuality",
+        "object": "rationale 2",
+        "sentence": "the factual accuracy of CoT-SC decreases for rationale 2 compared to rationale 1, which could be due to error propagation.",
+        "confidence": 0.85
+    },
+    {
+        "subject": "CoK",
+        "relation": "enhances_factuality",
+        "object": "subsequent rationales",
+        "sentence": "the factual accuracy of CoK improves slightly for the second rationale, which indicates that correcting previous rationales helps the LLM to generate more factual rationales in future steps.",
+        "confidence": 0.85
+    },
+    {
+        "subject": "human evaluation",
+        "relation": "confirms",
+        "object": "CoK reasoning consistency",
+        "sentence": "volunteers consistently confirm that CoK-generated reasoning chains are factually consistent while the CoT-SC chains are not.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "CoK",
+        "relation": "demonstrates",
+        "object": "improved factual consistency",
+        "sentence": "humans still believe that 44% of the time, the CoK-generated CoT is improved on factual consistency, although it may not contain the necessary information for a correct answer.",
+        "confidence": 0.80
+    },
+    {
+        "subject": "CoK",
+        "relation": "correlates_with",
+        "object": "better answers",
+        "sentence": "humans believe 73% of the time that these improved CoTs should have led to better answers.",
+        "confidence": 0.80
+    },
+    {
+        "subject": "CoK",
+        "relation": "addresses",
+        "object": "error propagation",
+        "sentence": "previous works do not consider knowledge from multiple domains and lack progressive editing throughout
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "GPT-4",
+        "relation": "is_evaluated_as",
+        "object": "data analyst",
+        "sentence": "Is gpt-4 a good data analyst? arXiv preprint arXiv:2305.15038 , 2023.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "PALM",
+        "relation": "proposes",
+        "object": "Pathways for scaling language modeling",
+        "sentence": "Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, et al. Palm: Scaling language modeling with pathways. arXiv preprint arXiv:2204.02311 , 2022.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Scaling instruction-finetuned language models",
+        "relation": "studies",
+        "object": "methods for scaling instruction-finetuned language models",
+        "sentence": "Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Eric Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, et al. Scaling instruction-finetuned language models.arXiv preprint arXiv:2210.11416 , 2022.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "GPT-3",
+        "relation": "is_evaluated_as",
+        "object": "data annotator",
+        "sentence": "Bosheng Ding, Chengwei Qin, Linlin Liu, Lidong Bing, Shafiq Joty, and Boyang Li. Is gpt-3 a good data annotator? In Proceedings of ACL , 2023.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Retrieval augmented language model pre-training",
+        "relation": "introduces",
+        "object": "method for retrieval-augmented pre-training",
+        "sentence": "Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Mingwei Chang. Retrieval augmented language model pre-training. In Proceedings of ICML , 2020.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "MedAlpaca",
+        "relation": "provides",
+        "object": "open-source medical conversational AI models and training data",
+        "sentence": "Tianyu Han, Lisa C. Adams, Jens-Michalis Papaioannou, Paul Grundmann, Tom Oberhauser, Alexander Löser, Daniel Truhn, and Keno K. Bressem. Medalpaca – an open-source collection of medical conversational ai models and training data. arXiv preprint arXiv:2304.08247 , 2023.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "LoRA",
+        "relation": "proposes",
+        "object": "low-rank adaptation technique for large language models",
+        "sentence": "Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685 , 2021.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Survey of hallucination in natural language generation",
+        "relation": "analyzes",
+        "object": "hallucination phenomena in NLG",
+        "sentence": "Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii, Ye Jin Bang, Andrea Madotto, and Pascale Fung. Survey of hallucination in natural language generation. ACM Computing Surveys , 2023.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Chain of hindsight",
+        "relation": "proposes",
+        "object": "method for aligning language models with feedback",
+        "sentence": "Hao Liu, Carmelo Sferrazza, and Pieter Abbeel. Chain of hindsight aligns language models with feedback. arXiv preprint arXiv:2302.02676 , 2023.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Learn to explain",
+        "relation": "develops",
+        "object": "multimodal reasoning via thought chains",
+        "sentence": "Pan Lu, Swaroop Mishra, Tony Xia, Liang Qiu, Kai-Wei Chang, Song-Chun Zhu, Oyvind Tafjord, Peter Clark, and Ashwin Kalyan. Learn to explain: Multimodal reasoning via thought chains for science question answering. In Proceedings of NIPS , 2022.",
+        "confidence": 0.95
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Wang, Victor Zhong et al.",
+        "relation": "auteur_de",
+        "object": "UnifiedSKG: Unifying and multi-tasking structured knowledge grounding with text-to-text language models",
+        "sentence": "Wang, Victor Zhong, Bailin Wang, Chengzu Li, Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang, Noah A. Smith, Luke Zettlemoyer, and Tao Yu. UnifiedSKG: Unifying and multi-tasking structured knowledge grounding with text-to-text language models. In Proceedings of EMNLP , 2022.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Zhilin Yang et al.",
+        "relation": "auteur_de",
+        "object": "HotpotQA: A dataset for diverse, explainable multi-hop question answering",
+        "sentence": "Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William Cohen, Ruslan Salakhutdinov, and Christopher D. Manning. HotpotQA: A dataset for diverse, explainable multi-hop question answering. In Proceedings of EMNLP , 2018.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Shunyu Yao et al.",
+        "relation": "auteur_de",
+        "object": "React: Synergizing reasoning and acting in language models",
+        "sentence": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. React: Synergizing reasoning and acting in language models. In Proceedings of ICLR , 2023.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Chain-of-Knowledge",
+        "relation": "présente_une_méthode",
+        "object": "HOTPOT QA",
+        "sentence": "A.1 C HAIN -OF-KNOWLEDGE (HOTPOT QA)",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Verify-and-Edit",
+        "relation": "auteur_de",
+        "object": "Zhao et al. 2023c",
+        "sentence": "Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin,
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "AQG",
+        "relation": "queries_domain",
+        "object": "uptodate.com",
+        "sentence": "We directly query generated natural language sentence within the domain uptodate.com , which is an authoritative medical website.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "generates_query",
+        "object": "physics knowledge sentence",
+        "sentence": "Given a physics reasoning step, AQG generates a sentence of relevant physics knowledge as the query.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "AQG",
+        "relation": "compares_embeddings_with",
+        "object": "ScienceQA Physics knowledge source",
+        "sentence": "Subsequently, we compare the embeddings of this query with sentences from the ScienceQA Physics knowledge source and select the sentence with the highest cosine similarity as the final supporting knowledge.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "AQG",
+        "relation": "ensures_factually_correct",
+        "object": "supporting knowledge",
+        "sentence": "Hence, this ensures that the supporting knowledge is factually correct.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "queries_domain",
+        "object": "physicsclassroom.com",
+        "sentence": "We directly query generated natural language sentence within the domain physicsclassroom.com , which is an authoritative physics website.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "generates_query",
+        "object": "biology knowledge sentence",
+        "sentence": "Given a biology reasoning step, AQG generates a sentence of relevant biology knowledge as the query.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "AQG",
+        "relation": "queries_domain",
+        "object": "ck12.org/c/biology/",
+        "sentence": "We directly query generated natural language sentence within the domain ck12.org/c/biology/ , which is an authoritative biology website.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Wikidata SPARQL",
+        "relation": "uses_instruction_tuning_dataset",
+        "object": "filtered LC-quad and KQA-pro datasets",
+        "sentence": "To create the instruction-tuning dataset, we utilize a filtered version of LC-quad (Trivedi et al., 2017) and KQA-pro (Cao et al., 2022) datasets.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "Medical Flashcards dataset",
+        "relation": "covers_subjects",
+        "object": "anatomy, physiology, pathology, pharmacology",
+        "sentence": "This dataset consists of question-answering pairs covering various subjects in the medical source, such as anatomy, physiology, pathology, and pharmacology.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "ScienceQA Physics",
+        "relation": "provides_lecture_with",
+        "object": "necessary knowledge to answer questions",
+        "sentence": "The lecture contains necessary knowledge to answer the question.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Mg2+ levels",
+        "relation": "defines_relationship_with",
+        "object": "PTH and Ca2+ levels",
+        "sentence": "Very low Mg2+ levels correspond to low PTH levels which in turn results in low Ca2+ levels.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "thermal energy",
+        "relation": "depends_on",
+        "object": "temperature difference",
+        "sentence": "The two glasses of water have the same mass but different temperatures. Since the 75°F glass of water is colder than the 80°F glass of water, it has less thermal energy.",
+        "confidence": 0.94
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Flicka",
+        "relation": "has_phenotype",
+        "object": "white wool",
+        "sentence": "Flicka’s observable version of the wool color trait is white wool. So, Flicka’s phenotype for the wool color trait is white wool.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "CoK",
+        "relation": "relies_on",
+        "object": "authoritative knowledge sources",
+        "sentence": "As a result, the risk from the knowledge sources are reduced.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Llama-2",
+        "relation": "is_fine_tuned_with",
+        "object": "LoRA",
+        "sentence": "We utilize LoRA for parameter-efficient fine-tuning, and load the weights in 8-bit format.",
+        "confidence": 0.97
+    },
+    {
+        "subject": "FEVER",
+        "relation": "belongs_to_domain",
+        "object": "Factual",
+        "sentence": "Table 10: Details of the evaluation datasets. Domain Dataset # of Samples Factual FEVER 1000",
+        "confidence": 0.99
+    },
+    {
+        "subject": "Factual domain",
+        "relation": "has_F1_score",
+        "object": "96.0%",
+        "sentence": "As shown in Table 11, we find that while the domain selection is not perfect, the overall F1 scores are more than 94% across all the domains.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "CoK",
+        "relation": "requires",
+        "object": "domain_selection",
+        "sentence": "As CoK relies on selecting relevant knowledge domains, it is important that the domain selection step is of high quality.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "is_affected_by",
+        "object": "knowledge_source_reliability",
+        "sentence": "Notably, LLMs using CoK may still generate inaccurate information if the knowledge sources contain unreliable information.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "volunteers",
+        "relation": "use",
+        "object": "Google",
+        "sentence": "The instruction specifically asks the volunteers to verify their knowledge from Google, especially the Wikipedia data source.",
+        "confidence": 0.97
+    },
+    {
+        "subject": "ChatGPT",
+        "relation": "produces",
+        "object": "incorrect_reasoning_chain",
+        "sentence": "Example 1: [...] ChatGPT: SUPPORTS.",
+        "confidence": 0.96
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Saturn Corporation",
+        "relation": "is_known_as",
+        "object": "Saturn LLC",
+        "sentence": "The CoT mentions repetitively that Saturn Corporation is also known as Saturn LLC.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "has_cost_advantage_over",
+        "object": "ReAct",
+        "sentence": "CoK also costs much less than ReAct, incurring only around 40% of ReAct’s costs.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "gpt-3.5-turbo",
+        "relation": "has_input_cost",
+        "object": "$0.0015 / 1K tokens",
+        "sentence": "The API cost for gpt-3.5-turbo is currently $0.0015 / 1K tokens for input, and $0.002 / 1K tokens for output.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "gpt-3.5-turbo",
+        "relation": "has_output_cost",
+        "object": "$0.002 / 1K tokens",
+        "sentence": "The API cost for gpt-3.5-turbo is currently $0.0015 / 1K tokens for input, and $0.002 / 1K tokens for output.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Human study",
+        "relation": "found_percentage_of_improved_CoTs",
+        "object": "44%",
+        "sentence": "In the human study for wrong predictions, 44% of the time humans claim that CoK still generates improved CoTs.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "Human study",
+        "relation": "found_percentage_of_better_answers",
+        "object": "73%",
+        "sentence": "Among these 44% instances, 73% of the time humans think these CoTs should have led to better answers.",
+        "confidence": 0.88
+    },
+    {
+        "subject": "CoK",
+        "relation": "utilizes",
+        "object": "dynamic_knowledge_editing",
+        "sentence": "The extra costs are incurred by the dynamic knowledge editing stage, which is shown to boost performance in the main results.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "CoK",
+        "relation": "compared_to",
+        "object": "Verify-and-Edit",
+        "sentence": "The costs are on par with methods such as Verify-and-Edit.",
+        "confidence": 0.91
+    },
+    {
+        "subject": "ReAct",
+        "relation": "applies_prompt_to",
+        "object": "every_instance",
+        "sentence": "The plain ReAct method, on the other hand, applies the ReAct prompt to every instance.",
+        "confidence": 0.95
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "AQG",
+        "relation": "enables_adaptability_in_query_generation",
+        "object": "multi_domain_knowledge_sources",
+        "sentence": "Synthèse basée sur les triplets 1,2,3,8,9,35,36,39,41 décrivant les capacités d'AQG à générer des requêtes structurées et non structurées via différents modèles et domaines",
+        "confidence": 0.96
+    },
+    {
+        "subject": "CoK",
+        "relation": "enhances_reasoning_accuracy",
+        "object": "dynamic_knowledge_adapting",
+        "sentence": "Synthèse basée sur les triplets 6,7,19,20,22,24 montrant l'amélioration de précision via la correction progressive des rationnels et l'adaptation dynamique des connaissances",
+        "confidence": 0.97
+    },
+    {
+        "subject": "Structured_query_languages",
+        "relation": "superior_to_unstructured",
+        "object": "factual_retrieval_efficiency",
+        "sentence": "Synthèse basée sur les triplets 13 et 14 comparant l'efficacité des requêtes structurées vs non structurées",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "addresses_limitation_of",
+        "object": "CoT_hallucination",
+        "sentence": "Synthèse basée sur les triplets 21 et 24 décrivant la capacité de CoK à réduire les hallucinations par rapport à CoT",
+        "confidence": 0.95
+    },
+    {
+        "subject": "AQG",
+        "relation": "integrates_authoritative_sources",
+        "object": "multi_domain_fact_checking",
+        "sentence": "Synthèse basée sur les triplets 35,39,41 montrant l'utilisation de domaines autoritatifs médicaux, physiques et biologiques",
+        "confidence": 0.95
+    },
+    {
+        "subject": "CoK",
+        "relation": "cost_efficient_compared_to",
+        "object": "ReAct",
+        "sentence": "Synthèse basée sur les triplets 57 et 63 décrivant la réduction de 60% des coûts par rapport à ReAct",
+        "confidence": 0.92
+    },
+    {
+        "subject": "LoRA",
+        "relation": "enables_efficient_fine_tuning",
+        "object": "Llama-2",
+        "sentence": "Synthèse basée sur les triplets 31 et 49 décrivant l'utilisation de LoRA pour l'adaptation efficace de Llama-2",
+        "confidence": 0.97
+    },
+    {
+        "subject": "CoK",
+        "relation": "validated_by_human_studies",
+        "object": "improved_reasoning_chains",
+        "sentence": "Synthèse basée sur les triplets 60 et 61 montrant que 44% des CoTs de CoK sont améliorés et 73% conduisent à de meilleures réponses",
+        "confidence": 0.89
+    },
+    {
+        "subject": "CoK",
+        "relation": "dependent_on",
+        "object": "knowledge_source_reliability",
+        "sentence": "Synthèse basée sur les triplets 48 et 53 décrivant l'impact de la qualité des sources sur la précision de CoK",
+        "confidence": 0.93
+    },
+    {
+        "subject": "CoK",
+        "relation": "outperforms_baseline_methods",
+        "object": "holistic_reasoning_accuracy",
+        "sentence": "Synthèse basée sur les triplets 10,11,12,19,24 montrant que CoK surpasse ReAct, CoT, CoT-SC et le prompt standard",
+        "confidence": 0.94
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "définit",
+        "object": "algorithmes existants",
+        "sentence": "Le présent document a pour but de faire le point sur cette méthode d'apprentissage, de montrer dans quel domaine on agit, ses bases théoriques et ses buts. On montrera une définition sommaire de plusieurs algorithmes déjà existants.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "modèle multi-agents",
+        "relation": "permet",
+        "object": "coexistence d'agents et interactions",
+        "sentence": "Ce modèle permettait la coexistence simultanée d'éléments d'agents divers et de leurs liens possibles entre eux et sur l'environnement.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "types de relations d'agents",
+        "relation": "composé_de",
+        "object": "agents indépendants",
+        "sentence": "On peut séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "agents collaboratifs",
+        "relation": "posent",
+        "object": "effet de classe",
+        "sentence": "Il arrive qu'on se trouve face à un effet de \"classe\". Les bénéfices du système peuvent se donner pour tous les agents en même temps, ce qui rend l'apprentissage à un niveau local difficile.",
+        "confidence": 0.88
+    },
+    {
+        "subject": "agents compétitifs",
+        "relation": "basés_sur",
+        "object": "théorie des jeux",
+        "sentence": "C'est une catégorie déjà connue par les méthodes de la théorie des jeux - et c'est de cette catégorie que se basent la plupart des algorithmes d'apprentissage multi-agents.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "unification_de",
+        "object": "modèles de décisions de Markov",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "équilibre de Nash",
+        "relation": "qualité",
+        "object": "convergence d'algorithmes d'apprentissage",
+        "sentence": "Un équilibre de Nash montre donc une situation stable, où un mouvement léger ne peut bénéficier à personne - il s'agit donc d'un point stable à atteindre pour un algorithme d'apprentissage puisqu'il possède la qualité d'être une meilleure réponse et est souvent stable.",
+        "confidence": 0.91
+    },
+    {
+        "subject": "MDP",
+        "relation": "formalisé_par",
+        "object": "tuple (S, A, T, R)",
+        "sentence": "On peut formaliser un MDP par un tuple (S, A, T, R) où S est l'ensemble des états, A l'ensemble des actions, T la matrice S*A*S des probabilités de transition et R la matrice S*A des bénéfices.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "framework_utilisé_pour",
+        "object": "algorithmes d'apprentissage multi-agents",
+        "sentence": "Les jeux stochastiques sont le framework qui est grandement utilisé pour les algorithmes d'apprentissage des systèmes multi-agents.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "jeux à somme nulle",
+        "relation": "plus_facile_à_analyser_que",
+        "object": "jeux à somme générale",
+        "sentence": "Les jeux dont la somme est à zéro (zero-sum game) sont en général plus faciles à analyser que les autres (general-sum game).",
+        "confidence": 0.89
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Pair-Impair",
+        "relation": "est_composé_de",
+        "object": "deux_joueurs",
+        "sentence": "Pair-Impair: deux joueurs, un état, deux actions possibles pour chaque joueur : pair ou impair",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Pair-Impair",
+        "relation": "définit",
+        "object": "matrice_de_récompense_R1_111_11",
+        "sentence": "R    \n\n\n\n\n-- =\n111 11\nimpairpairimpair pair",
+        "confidence": 0.92
+    },
+    {
+        "subject": "Dilemme_du_prisonnier",
+        "relation": "est_composé_de",
+        "object": "deux_actions_par_joueur",
+        "sentence": "Dilemme du prisonnier: deux joueurs, un état, deux actions possibles pour chaque joueur : le silence ou passer aux aveux",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Dilemme_du_prisonnier",
+        "relation": "définit",
+        "object": "matrice_de_récompense_R1_14031",
+        "sentence": "R     \n\n\n\n =\n14031\navouersilenceavouer silence",
+        "confidence": 0.92
+    },
+    {
+        "subject": "roche-papier-ciseaux",
+        "relation": "est_composé_de",
+        "object": "trois_actions_par_joueur",
+        "sentence": "roche-papier-ciseaux: deux joueurs, un état, trois actions possibles pour chaque joueur : roche, papier ou ciseaux",
+        "confidence": 0.98
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "permet_de",
+        "object": "comparer_algorithmes_d'apprentissage_multi-agents",
+        "sentence": "Nudelman, Wortman, Leyton-Brown et Shohav ont créé un framework de test des algorithmes d'apprentissage multi-agents appelé GAMUT [6]. Ce framework sert à comparer pour plusieurs jeux connus et relativement communs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "rationalité",
+        "relation": "définit",
+        "object": "convergence_vers_meilleure_réponse",
+        "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse aux politiques des autres joueurs.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "convergence",
+        "relation": "exige",
+        "object": "politique_stationnaire",
+        "sentence": "La convergence est une caractéristique relativement simple. Elle requiert que notre algorithme d'apprentissage converge vers une politique stationnaire.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "sécurité",
+        "relation": "garantit",
+        "object": "bénéfice_minimax",
+        "sentence": "La sécurité (safety), où encore le non-regret (no-regret) est une autre qualité que l'on recherche dans un algorithme d'apprentissage. Pour ceci, on demande que la règle d'apprentissage au moins le bénéfice du maximin.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Bully",
+        "relation": "assimile",
+        "object": "stratégie_minimax",
+        "sentence": "La stratégie de Bully [5] est de choisir l'action qui maximise notre bénéfice en prenant pour acquis que l'opposant choisira l'action qui maximise le sien. En pratique, si nous sommes dans un jeu de somme zéro, Bully nous donnera un algorithme de minimax",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeu_fictif",
+        "relation": "utilise",
+        "object": "distribution_des_actions_passées",
+        "sentence": "Par le jeu fictif [3], notre agent assume que la stratégie de l'adversaire est de tirer ses actions d'une distribution fixe, et estime cette distribution en comptabilisant les fréquences de chaque action que l'adversaire a joué dans le passé.",
+        "confidence": 0.96
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Q-Learning",
+        "relation": "fondé_sur",
+        "object": "MDP",
+        "sentence": "Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques, mais a été considéré par plusieurs comme une base solide pour des développements futurs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "se_base_sur",
+        "object": "paires état-action",
+        "sentence": "Q-Learning se base sur des estimations de paires état-action.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-valeur",
+        "relation": "définit",
+        "object": "bénéfices futurs (réduits)",
+        "sentence": "La valeur Q(s,a) est définie comme étant l'estimation des bénéfices futurs (réduits).",
+        "confidence": 0.97
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "généralisé_en",
+        "object": "minimax-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "généralisé_en",
+        "object": "Nash-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "généralisé_en",
+        "object": "CE-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "Friend-or-Foe",
+        "relation": "classifie",
+        "object": "problème comme Friend",
+        "sentence": "La stratégie FoF a ceci d'intéressant qu'elle a deux façon de mettre à jour les stratégies V(s), selon qu'elle a classifié le problème comme Friend (une action optimale globale existe) ou comme Foe (on trouve plutôt un point de selle).",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Friend-or-Foe",
+        "relation": "classifie",
+        "object": "problème comme Foe",
+        "sentence": "La stratégie FoF a ceci d'intéressant qu'elle a deux façon de mettre à jour les stratégies V(s), selon qu'elle a classifié le problème comme Friend (une action optimale globale existe) ou comme Foe (on trouve plutôt un point de selle).",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "est_rationnel",
+        "object": "vrai",
+        "sentence": "Q-Learning est rationnel et convergent.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "est_convergent",
+        "object": "vrai",
+        "sentence": "Q-Learning est rationnel et convergent.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Filtres de Kalman",
+        "relation": "utilise",
+        "object": "système collaboratif",
+        "sentence": "L'idée de cet algorithme est, dans un système collaboratif (où plusieurs agents ont des buts communs), d'être capable d'isoler le 'bruit' que causent les autres agents en regard à une récompense totale.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "Filtres de Kalman",
+        "relation": "permet_de",
+        "object": "isoler le bruit des autres agents",
+        "sentence": "L'idée de cet algorithme est, dans un système collaboratif (où plusieurs agents ont des buts communs), d'être capable d'isoler le 'bruit' que causent les autres agents en regard à une récompense totale.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "IGA",
+        "relation": "utilise",
+        "object": "taux d'app
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Run the GAMUT",
+        "relation": "presented_at",
+        "object": "AAMAS-2004",
+        "sentence": "(2004). Run the GAMUT: A Comprehensive Approach to Evaluating Game-Theoretic Algorithms. AAMAS-2004. To Appear.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+        "relation": "presented_at",
+        "object": "17th Neural Information Processing Systems (NIPS)",
+        "sentence": "[7] Powers, R., Shoham, Y. (2004). New criteria and a new algorithm for learning in multi-agent systems. In Proceedings of the 17th Neural Information Processing Systems (NIPS)",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Multi-Agent Reinforcement Learning: a critical survey",
+        "relation": "classified_as",
+        "object": "Technical Report",
+        "sentence": "[8] Shoham, Y., Powers, R., & Grenager, T. (2003). Multi-Agent Reinforcement Learning: a critical survey. Technical Report.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Nash convergence of gradient dynamics in general sum games",
+        "relation": "presented_at",
+        "object": "UAI-2000",
+        "sentence": "[9] Singh, S., Kearns, M., & Mansour, Y. (2000). Nash convergence of gradient dynamics in general sum games. In Proceedings of UAI-2000, pp. 541-548, Morgan Kaufman.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Online convex programming and generalized infinitesimal gradient ascent",
+        "relation": "presented_at",
+        "object": "Twentieth International Conference on Machine Learning",
+        "sentence": "[10] Martin Zinkevich. Online convex programming and generalized infinitesimal gradient ascent. In Proceedings of the Twentieth International Conference on Machine Learning, pages 928–925, 2003.",
+        "confidence": 0.95
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Théorie des jeux",
+        "relation": "sous-tend",
+        "object": "Framework pour algorithmes multi-agents",
+        "sentence": "Synthèse basée sur les triplets 5 (agents compétitifs basés sur la théorie des jeux) et 9 (jeux stochastiques comme framework pour algorithmes multi-agents)",
+        "confidence": 0.92
+    },
+    {
+        "subject": "Jeux stochastiques",
+        "relation": "sert_de",
+        "object": "Cadre unifié pour systèmes multi-agents",
+        "sentence": "Synthèse basée sur les triplets 6 (unification des MDP) et 9 (framework pour algorithmes multi-agents)",
+        "confidence": 0.93
+    },
+    {
+        "subject": "Équilibre de Nash",
+        "relation": "garantit",
+        "object": "Convergence des algorithmes d'apprentissage",
+        "sentence": "Synthèse basée sur les triplets 7 (qualité de convergence) et 5 (base théorique pour algorithmes multi-agents)",
+        "confidence": 0.91
+    },
+    {
+        "subject": "Relations d'agents",
+        "relation": "classifiées_en",
+        "object": "Paradigmes d'interaction (indépendants, collaboratifs, compétitifs)",
+        "sentence": "Synthèse basée sur le triplet 3 (classification en 3 catégories) et le triplet 4 (effet de classe des agents collaboratifs)",
+        "confidence": 0.90
+    },
+    {
+        "subject": "Jeux à somme nulle",
+        "relation": "exhibent",
+        "object": "Complexité inférieure aux jeux à somme générale",
+        "sentence": "Synthèse basée sur le triplet 10 (comparaison d'analyse entre types de jeux)",
+        "confidence": 0.89
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "définit",
+        "object": "algorithmes existants",
+        "sentence": "Le présent document a pour but de faire le point sur cette méthode d'apprentissage [...] On montrera une définition sommaire de plusieurs algorithmes déjà existants.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Types de relations d'agents",
+        "relation": "comprend",
+        "object": "agents indépendants",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Types de relations d'agents",
+        "relation": "comprend",
+        "object": "agents collaboratifs",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Types de relations d'agents",
+        "relation": "comprend",
+        "object": "agents compétitifs",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Jeux stochastiques",
+        "relation": "est_composé_de",
+        "object": "modèles de décisions de Markov",
+        "sentence": "Les jeux stochastiques [...] sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Jeux stochastiques",
+        "relation": "est_composé_de",
+        "object": "jeux matriciels",
+        "sentence": "Les jeux stochastiques [...] sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Équilibre de Nash",
+        "relation": "définit",
+        "object": "collection de stratégies",
+        "sentence": "De là, on peut introduire le concept d'équilibre de Nash [...] pour chaque joueur, sa stratégie i se trouve être une meilleure réponse aux stratégies j des autres joueurs.",
+        "confidence": 0.97
+    },
+    {
+        "subject": "Problème de décision de Markov",
+        "relation": "formalisé_par",
+        "object": "tuple (S, A, T, R)",
+        "sentence": "On peut formaliser un MDP par un tuple (S, A, T, R) où S est l'ensemble des états, A l'ensemble des actions, T la matrice S*A*S des probabilités de transition et R la matrice S*A des bénéfices.",
+        "confidence": 0.96
+    },
+    {
+        "subject": "Jeux à somme nulle",
+        "relation": "plus_facile_à_analyser_que",
+        "object": "jeux à somme générale",
+        "sentence": "Les jeux dont la somme est à zéro (zero-sum game) sont en général plus faciles à analyser que les autres (general-sum game).",
+        "confidence": 0.90
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Pair-Impair",
+        "relation": "également_appelé",
+        "object": "matching pennies",
+        "sentence": "ce jeu est également appelé matching pennies dans la littérature",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "définit",
+        "object": "matrice de bénéfice R1",
+        "sentence": "R = [[1, 4], [0, 3]] pour le dilemme du prisonnier",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "définit",
+        "object": "matrice de bénéfice R2",
+        "sentence": "R = [[1, 0], [4, 3]] pour le dilemme du prisonnier",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux matriciels simples",
+        "relation": "utilisé_pour_vérifier",
+        "object": "validité des algorithmes d'apprentissage multi-agents",
+        "sentence": "ces jeux sont très utilisés pour vérifier la validité des algorithmes d'apprentissage multi-agents",
+        "confidence": 0.90
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "a_été_créé_par",
+        "object": "Nudelman, Wortman, Leyton-Brown et Shoham",
+        "sentence": "Nudelman, Wortman, Leyton-Brown et Shoham ont créé un framework de test des algorithmes d'apprentissage multi-agents appelé GAMUT",
+        "confidence": 0.95
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "sert_à_comparer",
+        "object": "algorithmes d
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Q-Learning",
+        "relation": "emprunté_de",
+        "object": "apprentissage par renforcement",
+        "sentence": "Q-Learning est un algorithme directement emprunté à l'apprentissage par renforcement.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "fondé_sur",
+        "object": "MDP",
+        "sentence": "Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "base_sur",
+        "object": "estimations de paires état-action",
+        "sentence": "Q-Learning se base sur des estimations de paires état-action.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-valeur",
+        "relation": "définit_comme",
+        "object": "estimation des bénéfices futurs (réduits)",
+        "sentence": "La valeur Q(s,a) est définie comme étant l'estimation des bénéfices futurs (réduits).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "généralisé_pour",
+        "object": "plusieurs agents",
+        "sentence": "De cet algorithme, on peut le généraliser pour plusieurs agents tel que montré en [8].",
+        "confidence": 0.90
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "étendu_en",
+        "object": "minimax-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "Friend-or-Foe",
+        "relation": "utilise",
+        "object": "classification Friend/Foe",
+        "sentence": "La stratégie FoF a ceci d'intéressant qu'elle a deux façons de mettre à jour les stratégies V(s), selon qu'elle a classifié le problème comme Friend (une action optimale globale existe) ou comme Foe (on trouve plutôt un point de selle).",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Filtres de Kalman",
+        "relation": "utilisé_pour",
+        "object": "simplifier problème multi-états/multi-agents",
+        "sentence": "L'utilisation de filtres de Kalman [4] est une manière de simplifier un problème à plusieurs états et plusieurs agents proposé par Chang, Ho et Kaebling.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Filtres de Kalman",
+        "relation": "permet_de",
+        "object": "isoler le bruit des autres agents",
+        "sentence": "L'idée de cet algorithme est, dans un système collaboratif (où plusieurs agents ont des buts communs), d'être capable d'isoler le 'bruit' que causent les autres agents en regard à une récompense totale.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "IGA",
+        "relation": "défini_comme",
+        "object": "Infinitesimal Gradient Ascent",
+        "sentence": "IGA vient de Infinitesimal Gradient Ascent.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "IGA",
+        "relation": "converge_vers",
+        "object": "équilibre de Nash",
+        "sentence": "Cette façon de faire, introduite par Singh, Kearns et Mansour, vient avec une preuve de convergence vers les bénéfices espérés d'un équilibre de Nash.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "IGA",
+        "relation": "étendu_en",
+        "object": "GIGA",
+        "sentence": "IGA a été bâti pour des jeux de deux joueurs et deux actions, mais il a été étendu pour donner GIGA (Gineralized IGA) [10].",
+        "confidence": 0.90
+    },
+    {
+        "subject": "PHC",
+        "relation": "défini_comme",
+        "object": "Policy Hill-Climbing",
+        "sentence": "PHC, pour Policy Hill-Climbing est une amélioration du Q-Learning.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "PHC",
+        "relation": "améliore",
+        "object": "Q-Learning",
+        "sentence": "PHC est une amélioration du Q-Learning.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "WoLF",
+        "relation": "défini_comme",
+        "object": "philosophie d'apprentissage",
+        "sentence": "WoLF [1] n'est pas vraiment par
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Run the GAMUT: A Comprehensive Approach to Evaluating Game-Theoretic Algorithms",
+        "relation": "publié_dans",
+        "object": "AAMAS-2004",
+        "sentence": "(2004). Run the GAMUT: A Comprehensive Approach to Evaluating Game-Theoretic Algorithms. AAMAS-2004. To Appear.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Run the GAMUT: A Comprehensive Approach to Evaluating Game-Theoretic Algorithms",
+        "relation": "année_de_publication",
+        "object": "2004",
+        "sentence": "(2004). Run the GAMUT: A Comprehensive Approach to Evaluating Game-Theoretic Algorithms. AAMAS-2004. To Appear.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Powers, R. et Shoham, Y.",
+        "relation": "auteur_de",
+        "object": "New criteria and a new algorithm for learning in multi-agent systems",
+        "sentence": "[7] Powers, R., Shoham, Y. (2004). New criteria and a new algorithm for learning in multi-agent systems. In Proceedings of the 17th Neural Information Processing Systems (NIPS)",
+        "confidence": 0.98
+    },
+    {
+        "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+        "relation": "publié_dans",
+        "object": "Proceedings of the 17th Neural Information Processing Systems (NIPS)",
+        "sentence": "[7] Powers, R., Shoham, Y. (2004). New criteria and a new algorithm for learning in multi-agent systems. In Proceedings of the 17th Neural Information Processing Systems (NIPS)",
+        "confidence": 0.95
+    },
+    {
+        "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+        "relation": "année_de_publication",
+        "object": "2004",
+        "sentence": "[7] Powers, R., Shoham, Y. (2004). New criteria and a new algorithm for learning in multi-agent systems. In Proceedings of the 17th Neural Information Processing Systems (NIPS)",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Shoham, Y., Powers, R., & Grenager, T.",
+        "relation": "auteur_de",
+        "object": "Multi-Agent Reinforcement Learning: a critical survey",
+        "sentence": "[8] Shoham, Y., Powers, R., & Grenager, T. (2003). Multi-Agent Reinforcement Learning: a critical survey. Technical Report.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Multi-Agent Reinforcement Learning: a critical survey",
+        "relation": "type_de_publication",
+        "object": "Technical Report",
+        "sentence": "[8] Shoham, Y., Powers, R., & Grenager, T. (2003). Multi-Agent Reinforcement Learning: a critical survey. Technical Report.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Multi-Agent Reinforcement Learning: a critical survey",
+        "relation": "année_de_publication",
+        "object": "2003",
+        "sentence": "[8] Shoham, Y., Powers, R., & Grenager, T. (2003). Multi-Agent Reinforcement Learning: a critical survey. Technical Report.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Singh, S., Kearns, M., & Mansour, Y.",
+        "relation": "auteur_de",
+        "object": "Nash convergence of gradient dynamics in generalsum games",
+        "sentence": "[9] Singh, S., Kearns, M., & Mansour, Y. (2000). Nash convergence of gradient dynamics in generalsum games. In Proceedings of UAI-2000, pp. 541-548, Morgan Kaufman.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "Nash convergence of gradient dynamics in generalsum games",
+        "relation": "publié_dans",
+        "object": "Proceedings of UAI-2000",
+        "sentence": "[9] Singh, S., Kearns, M., & Mansour, Y. (2000). Nash convergence of gradient dynamics in generalsum games. In Proceedings of UAI-2000, pp. 541-548, Morgan Kaufman.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Nash convergence of gradient dynamics in generalsum games",
+        "relation": "année_de_publication",
+        "object": "2000",
+        "sentence": "[9] Singh, S., Kearns, M., & Mansour, Y. (2000). Nash convergence of gradient dynamics in generalsum games. In Proceedings of UAI-2000, pp. 541-548, Morgan Kaufman.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Martin Zinkevich",
+        "relation": "auteur_de",
+        "object": "Online convex programming and generalized infinitesimal gradient ascent",
+        "sentence": "[10] Martin Zinkevich. Online convex programming and generalized infinitesimal gradient
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Apprentissage multi-agents",
+        "relation": "définit",
+        "object": "algorithmes existants",
+        "sentence": "Le présent document a pour but de faire le point sur cette méthode d'apprentissage, de montrer dans quel domaine on agit, ses bases théoriques et ses buts. On montrera une définition sommaire de plusieurs algorithmes déjà existants.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "agent",
+        "relation": "a_pour_but",
+        "object": "s'adapter_aux_changements",
+        "sentence": "Parmi les éléments importants des agents est que leur environnement est variable, et comme plusieurs éléments d'intelligence artificielle, on désire que notre agent soit capable de s'adapter aux changements.",
+        "confidence": 0.92
+    },
+    {
+        "subject": "agents",
+        "relation": "se_séparent_en",
+        "object": "agents indépendants",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "agents",
+        "relation": "se_séparent_en",
+        "object": "agents collaboratifs",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "agents",
+        "relation": "se_séparent_en",
+        "object": "agents compétitifs",
+        "sentence": "On peux séparer les types de relations d'agents en 3 catégories : les agents indépendants, les agents collaboratifs, les agents compétitifs.",
+        "confidence": 0.98
+    },
+    {
+        "subject": "agents indépendants",
+        "relation": "ont_un_effet_similaire_à",
+        "object": "bruit de l'environnement",
+        "sentence": "La présence d'agents indépendants est la moins importante pour l'apprentissage. Comme leurs buts ne sont pas liés, l'effet d'un agent indépendant sur notre apprentissage se trouve alors similaire à un bruit qu'on pourrait assimiler aux variations de l'environnement.",
+        "confidence": 0.90
+    },
+    {
+        "subject": "agents collaboratifs",
+        "relation": "posent",
+        "object": "effet de classe",
+        "sentence": "Les agents collaboratifs posent entre eux certains problèmes pour l'apprentissage. Il arrive qu'on se trouve face à un effet de \"classe\". Les bénéfices du système peuvent se donner pour tous les agents en même temps, ce qui rend l'apprentissage à un niveau local difficile.",
+        "confidence": 0.88
+    },
+    {
+        "subject": "agents compétitifs",
+        "relation": "ont_des_buts_opposés",
+        "object": "buts opposés",
+        "sentence": "Les agents compétitifs sont un problème plus sérieux. Les agents sont en compétition et ont des buts opposés, où la réussite peut très bien passer par la \"défaite\" des autres agents.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux compétitifs",
+        "relation": "se_basent_sur",
+        "object": "théorie des jeux",
+        "sentence": "C'est une catégorie déjà connue par les méthodes de la théorie des jeux - et c'est de cette catégorie que se basent la plupart des algorithmes d'apprentissage multi-agents.",
+        "confidence": 0.93
+    },
+    {
+        "subject": "MDP",
+        "relation": "utilisé_dans",
+        "object": "apprentissage par renforcement",
+        "sentence": "Ces MDP sont très importants dans ce qu'on appelle l'apprentissage par renforcement.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "unifient",
+        "object": "MDP",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "jeux stochastiques",
+        "relation": "unifient",
+        "object": "jeux matriciels",
+        "sentence": "Les jeux stochastiques (aussi appelés jeux stratégiques ou encore jeux de Markov) sont l'unification des deux concepts précédents. Ce sont des jeux matriciels avec plusieurs états, ou encore des MDP avec plusieurs joueurs.",
+        "confidence": 0.94
+    },
+    {
+        "subject": "équilibre de Nash",
+        "relation": "représente",
+        "object": "str
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Pair-Impair",
+        "relation": "est_également_appelé",
+        "object": "matching pennies",
+        "sentence": "ce jeu est également appelé matching pennies dans la littérature",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "définit_matrice_de_récompense",
+        "object": "R1 = [[-1, -4], [0, -3]]",
+        "sentence": "R1 = [[-1, -4], [0, -3]]",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Dilemme du prisonnier",
+        "relation": "définit_matrice_de_récompense",
+        "object": "R2 = [[-1, 0], [-4, -3]]",
+        "sentence": "R2 = [[-1, 0], [-4, -3]]",
+        "confidence": 0.9
+    },
+    {
+        "subject": "roche-papier-ciseaux",
+        "relation": "définit_matrice_de_récompense",
+        "object": "R1 = [[0, -1, 1], [1, 0, -1], [-1, 1, 0]]",
+        "sentence": "R1 = [[0, -1, 1], [1, 0, -1], [-1, 1, 0]]",
+        "confidence": 0.9
+    },
+    {
+        "subject": "roche-papier-ciseaux",
+        "relation": "définit_matrice_de_récompense",
+        "object": "R2 = [[0, 1, -1], [-1, 0, 1], [1, -1, 0]]",
+        "sentence": "R2 = [[0, 1, -1], [-1, 0, 1], [1, -1, 0]]",
+        "confidence": 0.9
+    },
+    {
+        "subject": "GAMUT",
+        "relation": "a_été_créé_par",
+        "object": "Nudelman, Wortman, Leyton-Brown et Shohav",
+        "sentence": "Nudelman, Wortman, Leyton-Brown et Shohav ont créé un framework de test des algorithmes d'apprentissage multi-agents appelé GAMUT [6]",
+        "confidence": 0.95
+    },
+    {
+        "subject": "rationalité",
+        "relation": "définit",
+        "object": "convergence vers une meilleure réponse aux politiques stationnaires des autres joueurs",
+        "sentence": "La rationalité est une propriété qui se définit comme suit : si les stratégies des autres joueurs convergent vers des politiques stationnaires, alors l'algorithme d'apprentissage va converger vers une politique qui est une meilleure réponse aux politiques des autres joueurs",
+        "confidence": 0.9
+    },
+    {
+        "subject": "convergence",
+        "relation": "requiert",
+        "object": "convergence vers une politique stationnaire",
+        "sentence": "Elle requiert que notre algorithme d'apprentissage converge vers une politique stationnaire",
+        "confidence": 0.85
+    },
+    {
+        "subject": "sécurité (no-regret)",
+        "relation": "assure",
+        "object": "bénéfice moyen ≥ maximin",
+        "sentence": "Pour ceci, on demande que la règle d'apprentissage au moins le bénéfice du maximin",
+        "confidence": 0.8
+    },
+    {
+        "subject": "Bully",
+        "relation": "est_une_stratégie_statique",
+        "object": "stratégie de maximisation du bénéfice en anticipant le choix optimal de l'adversaire",
+        "sentence": "Bully et minimax sont deux stratégies statiques, donc elles n'apprennent pas",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Minimax",
+        "relation": "est_équivalent_à",
+        "object": "Bully dans les jeux à somme nulle",
+        "sentence": "En pratique, si nous sommes dans un jeu de somme zéro, Bully nous donnera un algorithme de minimax",
+        "confidence": 0.85
+    },
+    {
+        "subject": "BullyMixed",
+        "relation": "est_une_variation_de",
+        "object": "Bully",
+        "sentence": "Une variation de Bully existe, appelée BullyMixed, où on permet (encourage) une stratégie mixte plutôt qu'une stratégie pure",
+        "confidence": 0.9
+    },
+    {
+        "subject": "jeu fictif",
+        "relation": "assume",
+        "object": "stratégie adverse basée sur une distribution fixe",
+        "sentence": "Par le jeu fictif [3], notre agent assume que la stratégie de l'adversaire est de tirer ses actions d'une distribution fixe",
+        "confidence": 0.85
+    }
+]
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Q-Learning",
+        "relation": "est_basé_sur",
+        "object": "MDP",
+        "sentence": "Cet algorithme a été fondé autour de MDP, et ne s'applique pas directement à des jeux stochastiques, mais a été considéré par plusieurs comme une base solide pour des développements futurs.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "utilise",
+        "object": "taux_d'apprentissage",
+        "sentence": "où a est le taux d'apprentissage et g le taux de réduction (discount).",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "utilise",
+        "object": "taux_de_réduction",
+        "sentence": "où a est le taux d'apprentissage et g le taux de réduction (discount).",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "généralisé_pour",
+        "object": "plusieurs_agents",
+        "sentence": "De cet algorithme, on peut le généraliser pour plusieurs agents tel que montré en [8].",
+        "confidence": 0.85
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "amélioré_par",
+        "object": "minimax-Q",
+        "sentence": "On a proposé ensuite pour améliorer cette stratégie le minimax-Q, puis ensuite Nash-Q, aussi appelé Friend-or-Foe (FoF) et finalement CE-Q.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Friend-or-Foe",
+        "relation": "classifie_problème_comme",
+        "object": "Friend_ou_Foe",
+        "sentence": "La stratégie FoF a ceci d'intéressant qu'elle a deux façon de mettre à jour les stratégies V(s), selon qu'elle a classifié le problème comme Friend (une action optimale globale existe) ou comme Foe (on trouve plutôt un point de selle).",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Q-Learning",
+        "relation": "a_propriété",
+        "object": "rationnel_et_convergent",
+        "sentence": "Q-Learning est rationnel et convergent.",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Filtres_de_Kalman",
+        "relation": "utilise_système",
+        "object": "collaboratif",
+        "sentence": "L'idée de cet algorithme est, dans un système collaboratif (où plusieurs agents ont des buts communs), d'être capable d'isoler le 'bruit' que causent les autres agents en regard à une récompense totale.",
+        "confidence": 0.9
+    },
+    {
+        "subject": "Filtres_de_Kalman",
+        "relation": "est_similaire_à",
+        "object": "Q-Learning",
+        "sentence": "Cet algorithme utilise une mise à jour de stratégies très similaire à celle du Q-Learning, mais comme on se trouve dans une situation où on ne connaît pas R directement, on doit l'estimer, et c'est là que les filtres de Kalman entrent en jeu.",
+        "confidence": 0.85
+    },
+    {
+        "subject": "IGA",
+        "relation": "est_basé_sur",
+        "object": "Gradient_Ascent_infinitésimal",
+        "sentence": "IGA vient de Infinitesimal Gradient Ascent. De fait, on applique ici une montée de gradient très légère, avec un taux d'apprentissage variable qui tend vers zéro (d'où la notion d'infinités
+--- Fin de la réponse brute ---
+
+--- Réponse brute du LLM ---
+[
+    {
+        "subject": "Run the GAMUT",
+        "relation": "propose",
+        "object": "Comprehensive Approach to Evaluating Game-Theoretic Algorithms",
+        "sentence": "Run the GAMUT: A Comprehensive Approach to Evaluating Game-Theoretic Algorithms",
+        "confidence": 0.95
+    },
+    {
+        "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+        "relation": "propose",
+        "object": "new criteria",
+        "sentence": "New criteria and a new algorithm for learning in multi-agent systems",
+        "confidence": 0.95
+    },
+    {
+        "subject": "New criteria and a new algorithm for learning in multi-agent systems",
+        "relation": "propose",
+        "object": "new algorithm",
+        "sentence": "New criteria and a new algorithm for learning in multi-agent systems",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Multi-Agent Reinforcement Learning: a critical survey",
+        "relation": "survey",
+        "object": "Multi-Agent Reinforcement Learning",
+        "sentence": "Multi-Agent Reinforcement Learning: a critical survey",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Nash convergence of gradient dynamics in general sum games",
+        "relation": "study",
+        "object": "Nash convergence of gradient dynamics",
+        "sentence": "Nash convergence of gradient dynamics in general sum games",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Online convex programming and generalized infinitesimal gradient ascent",
+        "relation": "introduce",
+        "object": "Online convex programming",
+        "sentence": "Online convex programming and generalized infinitesimal gradient ascent",
+        "confidence": 0.95
+    },
+    {
+        "subject": "Online convex programming and generalized infinitesimal gradient ascent",
+        "relation": "introduce",
+        "object": "generalized infinitesimal gradient ascent",
+        "sentence": "Online convex programming and generalized infinitesimal gradient ascent",
+        "confidence": 0.95
+    }
+]
+--- Fin de la réponse brute ---
