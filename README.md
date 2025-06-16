@@ -57,6 +57,32 @@ Traiter un document PDF ou texte pour extraire des triplets et construire un gra
 python main.py --document chemin/vers/document.pdf
 ```
 
+### Extraction de triplets avec test_pdf_extraction.py
+
+Ce script permet d'extraire des triplets de connaissances à partir d'un document PDF ou TXT avec une extraction multi-niveaux :
+
+```bash
+python test_pdf_extraction.py --file chemin/vers/document.pdf --label NomDuGraphe --level 1
+```
+
+Paramètres :
+- `--file` : Chemin vers le fichier PDF ou TXT (obligatoire)
+- `--label` : Label pour les nœuds dans Neo4j (optionnel, par défaut "KnowledgeGraph")
+- `--level` : Niveau d'extraction des relations (optionnel, par défaut 1)
+
+Exemple :
+```bash
+python test_pdf_extraction.py --file systèmes_multi_agents.pdf --label SystemesMultiAgents --level 2
+```
+
+Le script va :
+1. Charger le document
+2. Extraire les triplets de connaissances
+3. Créer un graphe de connaissances
+4. Sauvegarder les résultats dans un fichier JSON (`triplets_extracted_multilevel.json`)
+5. Visualiser le graphe
+6. Exporter vers Neo4j (si configuré)
+
 ### Poser une question
 
 Poser une question au système en utilisant différentes méthodes d'amélioration de prompt :
